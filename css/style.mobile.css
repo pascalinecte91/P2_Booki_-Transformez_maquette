@@ -1,0 +1,12 @@
+#activity .activities-list .column {
+    width: 100%;
+}
+
+.activities-list .column article,
+.activite-list .column .double.article {
+    display: flex;
+    align-items: center;
+    height: 250px;
+    margin-bottom: 20px;
+  
+}

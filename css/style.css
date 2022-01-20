@@ -20,7 +20,7 @@
 }
 
 /**************
-    Generals     
+    Generals     F
 ***************/
 :root {
     font-family: 'Raleway', sans-serif;
@@ -74,6 +74,9 @@ ul li {
 .text-blue {
     color: var(--blue);
 }
+ul li .text-black {
+    color: black;
+}
 
 /*******************
     Nav * Headers     
@@ -99,8 +102,7 @@ nav.logo {
     align-items: center;
     padding: 10px 15px 10px 15px;
     font-size: 20px;
-    color: black;
-    margin: top 20px;
+    margin-top :20px;
 }
 
 /*****************
@@ -109,7 +111,7 @@ nav.logo {
 
 .search.container {
     display: inline;
-    flex-flow: left;
+    flex-flow: wrap;
 }
 
 .search-form button:hover {
@@ -125,8 +127,16 @@ nav.logo {
     transition: all 0.2s;
     width: 180px;
     height: 40px;
-    padding: 0
+    padding: 0;
+
 }
+
+.btn-gray-light:hover {
+background: var(--blue);
+color: white;
+border: 1px solid var(--blue)
+}
+
 
 .filters a {
     font-size: 20px;
@@ -136,7 +146,7 @@ nav.logo {
 
 .filters i {
     display: inline;
-    flex-flow: left;
+    flex-flow: wrap;
     background: var(--blue-light);
     color: black;
 }
@@ -182,25 +192,22 @@ input {
 /*****************
     Hebergments     
 ******************/
-.heberg_and_activ {
+
+ .hebergement {
     display: flex;
-    justify-content: space-between;
-    flex:2
-}
-.hebergement {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
+    flex-flow: row wrap;
     flex: 2;
+    justify-content: space-around;
     background: var(--gray-light);
     margin-right: 20px;
     border-radius: 15px;
+    height: auto;
 
 }
 
 .title {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     font-size: 20px;
     font-weight: 800;
     padding: 15px;
@@ -210,7 +217,6 @@ input {
     border: 1px solid var(--gray-light);
     background: white;
     border-radius: 7px;
-    max-width: 30%;
     margin: 15px 15px 15px 15px;
 
 }
@@ -225,9 +231,11 @@ p {
     box-shadow: 0 5px 10px 0 #333;
 }
 
-
+.hotel-img {
+    width: 30%;
+}
 .heberg-items img {
-    width: 250px;
+    width: 100%;
     height: 150px;
     border-radius: 7px;
     margin: 5px 5px 5px 5px;
@@ -237,12 +245,6 @@ p {
     padding: 15px;
 }
 
-.scroll {
-    font-size: 20px;
-    color: black;
-    font-weight: 800;
-    padding: 60px 10px 10px 10px;
-}
 
 /*****************
       Popular     
@@ -251,36 +253,44 @@ p {
 .popular {
     background: var(--gray-light);
     flex: 1;
+    display:flex;
+    flex-direction: column;
     border-radius: 15px;
     
 }
-
-.popular-content {
-    padding-left: 15px;
-    font-size: 14px;
-}
-.popular.title {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.popular-img {
-    
-    border-radius: 15px;
-    max-width: 30%;
-}
-
 
 .popular-item {
     display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-   
+    flex-direction: row;
+    justify-content: flex-start;
     border: 1px solid var(--gray-light);
     background: white;
     border-radius: 2px;
-}
+  }
 
+.popular-content  {
+   padding-left: 15px;
+
+}
+.popular .title {
+    font-size:20px;
+    }
+
+    .popular .popular-img {
+        padding:5px 5px 5px 5px;
+        display: flex;
+        flex-direction:column;
+        justify-content: flex-start;
+        width: 30%;
+        max-height: 300px;
+        border-radius: 10px;
+      }
+
+.popular-name {
+    font-size:14px;
+ 
+   
+}
 /*****************
     Activities      
 ******************/
@@ -304,25 +314,25 @@ p {
     border-radius: 15px;
 }
 
-.activities-list .column aside img {
+.activities-list .column article img {
     width: 100%;
     height: calc(100% - 67px);
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
 
-.activities-list .column aside {
+.activities-list .column article {
     height: 100%;
     box-shadow: 0px 0px 10px 0px var(--gray-light);
     border-radius: 15px;
 }
 
-.activities-list .column aside h3 {
+.activities-list .column article h3 {
     padding: 21px;
     margin: 0px;
 }
 
-.activities-list .column.double aside {
+.activities-list .column.double article {
     height: 48%;
 }
 
