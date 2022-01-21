@@ -74,6 +74,7 @@ ul li {
 .text-blue {
     color: var(--blue);
 }
+
 ul li .text-black {
     color: black;
 }
@@ -102,20 +103,25 @@ nav.logo {
     align-items: center;
     padding: 10px 15px 10px 15px;
     font-size: 20px;
-    margin-top :20px;
+    margin-top: 20px;
 }
 
 /*****************
     Search     
 ******************/
-
-.search.container {
-    display: inline;
-    flex-flow: wrap;
+.search-container button input {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid red;
+    width: 350px;
+    border-radius: 15px;
+    height: 50px;
 }
 
-.search-form button:hover {
-    background: #889ca1;
+.search-container input {
+    padding-left: 15px;
 }
 
 .btn-gray-light {
@@ -128,19 +134,20 @@ nav.logo {
     width: 180px;
     height: 40px;
     padding: 0;
+}
 
+.search-container .fa-map-marker-alt {
+    width: 40px;
+    height: 40px;
 }
 
 .btn-gray-light:hover {
-background: var(--blue);
-color: white;
-border: 1px solid var(--blue)
+    background: var(--blue);
+    color: white;
+    border: 1px solid var(--blue)
 }
 
-
-.filters a {
-    font-size: 20px;
-    color: black;
+.filters h2 {
     display: inline;
 }
 
@@ -175,7 +182,7 @@ button.button-search {
     width: 100%;
 }
 
-#search p {
+.search p {
     font-size: 14px;
 }
 
@@ -189,11 +196,25 @@ input {
     height: 40px
 }
 
+
+/*********************
+    Generals Sections     
+**********************/
+
+.hebergement .title,
+.popular .title,
+.activity .title,
+h2 {
+    font-size: 22px;
+    color: black;
+    padding: 15px 10px 15px 15px;
+}
+
 /*****************
     Hebergments     
 ******************/
 
- .hebergement {
+.hebergement {
     display: flex;
     flex-flow: row wrap;
     flex: 2;
@@ -246,6 +267,7 @@ p {
 }
 
 
+
 /*****************
       Popular     
 ******************/
@@ -253,10 +275,10 @@ p {
 .popular {
     background: var(--gray-light);
     flex: 1;
-    display:flex;
+    display: flex;
     flex-direction: column;
     border-radius: 15px;
-    
+
 }
 
 .popular-item {
@@ -266,31 +288,37 @@ p {
     border: 1px solid var(--gray-light);
     background: white;
     border-radius: 2px;
-  }
-
-.popular-content  {
-   padding-left: 15px;
-
 }
-.popular .title {
-    font-size:20px;
-    }
 
-    .popular .popular-img {
-        padding:5px 5px 5px 5px;
-        display: flex;
-        flex-direction:column;
-        justify-content: flex-start;
-        width: 30%;
-        max-height: 300px;
-        border-radius: 10px;
-      }
+.popular-content {
+    padding-left: 15px;
+}
+
+.popular-icone,
+p {
+    font-size: 20px;
+}
+
+.popular .title {
+    font-size: 20px;
+}
+
+.popular .popular-img {
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+    max-height: 300px;
+    border-radius: 10px;
+}
 
 .popular-name {
-    font-size:14px;
- 
-   
+    font-size: 14px;
+
+
 }
+
 /*****************
     Activities      
 ******************/
@@ -312,6 +340,7 @@ p {
     flex-direction: column;
     justify-content: space-around;
     border-radius: 15px;
+    font-size: 20px;
 }
 
 .activities-list .column article img {
@@ -328,8 +357,9 @@ p {
 }
 
 .activities-list .column article h3 {
-    padding: 21px;
     margin: 0px;
+    padding-left: 5px;
+    ;
 }
 
 .activities-list .column.double article {
