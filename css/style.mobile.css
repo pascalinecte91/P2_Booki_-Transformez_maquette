@@ -1,8 +1,8 @@
-#activity .activities-list .column {
+#activity .activitiesList .column {
     width: 100%;
 }
 
-.activities-list .column article,
+.activitiesList .column article,
 .activite-list .column .double.article {
     display: flex;
     align-items: center;
