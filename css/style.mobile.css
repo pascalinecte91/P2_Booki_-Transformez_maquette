@@ -1,12 +1,40 @@
-#activity .activitiesList .column {
-    width: 100%;
+body {
+    margin:5px;
 }
 
-.activitiesList .column article,
-.activite-list .column .double.article {
-    display: flex;
-    align-items: center;
-    height: 250px;
-    margin-bottom: 20px;
-  
+.logo {
+  flex-flow: column wrap;  
+  align-content: center;  
 }
+
+
+.logo img {
+    padding-top: 0;
+    width: 60px;
+    height: 30px;
+
+}
+h1 {
+    font-size: 18px;
+    flex-flow: row wrap;
+    padding-left: 10px;
+}
+
+p {
+font-size: 12px;
+}
+
+.borderSearch {
+    width: 100%;
+    border-radius: 10px;
+    line-height: 10px;
+}
+
+.filters  {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    line-height: 13px;
+}
+
++

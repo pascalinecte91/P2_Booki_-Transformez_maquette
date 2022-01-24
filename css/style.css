@@ -172,7 +172,7 @@ header {
     border: none;
 }
 
-.searchContainerInput {
+.searchInput {
     padding-left: 15px;
     border: none;
     height: 50px;
@@ -210,8 +210,6 @@ header {
     transition: all 0.2s;
     width: 180px;
     height: 50px;
-
-
 }
 
 .filtersIcone {
@@ -224,8 +222,6 @@ header {
     color: var(--blue);
     background-color: var(--blue-light);
     margin-right: 10px;
-  
-
 }
 
 .filtersIcone:hover {
