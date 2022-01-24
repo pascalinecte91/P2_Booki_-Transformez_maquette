@@ -1,46 +1,46 @@
 html {
-    height: 70vh;;
-}
-
-
-nav {
-    display: flex;
-    justify-content: space-between;
-   margin: 15px;
-    font-size: 20px;
-    color: black;
+    height: 70vh;
+    margin-right: 15px;
 }
 
  .colorLink {
     margin-left: 50px;
 }
 
+.logo  {
+    margin-right: 40px;
+    margin-left: 5px;
+}
 h1 {
     font-size: 25px;
 }
+
+
 .borderSearch {
     width: 350px;
     height: 20px;
     border-radius: 10px;
+    
 }
 
+.filters .filtersIcone, h2 {
+    font-size: 15px;
+    height: 30px;
+    width: 30px;
+}
+
+.filters button {
+    padding:15px;
+}
+
+.searchButton {
+    margin-top:15px; 
+}
 form  {
     margin: 40px 0 0 ;
 }
 
 
-.btn-gray-light {
-    font-size: 14px;
-    margin-right: 0px;
-    border: 1px solid var(--gray-light);
-    background-color: white;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: all 0.2s;
-    width: 120px;
-    height: 40px;
-    
-}
 .filtersIcone {
     display: flex;
     justify-content: center;
@@ -54,7 +54,8 @@ form  {
 }
 
 .filters {
-    margin-top: 25px;
+    margin-top: 45px;
+
 }
 
 .info i {
@@ -63,5 +64,39 @@ form  {
     margin-left: 10px;
 }
 .info {
-    font-size: 20px;
+    font-size: 14px;
+}
+
+.filters h2 {
+    padding: 10px;
+    margin-right: 25px;
+}
+
+.btn-gray-light {
+    font-size: 13px;
+    border: 1px solid var(--gray-light);
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.2s;
+    width: 100px;
+    height: 30px;
+}
+
+.filtersIcone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    width: 52px;
+    height: 32px;
+    color: var(--blue);
+    background-color: var(--blue-light);
+   
+}
+
+.filtersIcone:hover {
+    background: var(--blue);
+    color: white;
+    border: 1px solid var(--blue)
 }
