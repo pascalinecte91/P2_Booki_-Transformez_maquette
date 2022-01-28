@@ -5,8 +5,8 @@
 *******************/
 
 body > header {
-    flex-wrap: wrap;    
-    
+    flex-wrap: wrap;
+    padding: 0px;   
 }
 
 .logo {
@@ -14,33 +14,31 @@ body > header {
     width: 100%; 
 }
 
-
 .logo img {
     flex-direction: column;
     align-items: center;
     width: 100px;
-    height: 50px;
+    margin-top: 0px;
 }
 
 .navPrimary {
     width: 100%;
     text-align: center;
 }
+
 .navPrimary li {
     width: 50%;
 }
 
-.navPrimary {
-    width: 100%;
-}
 .navPrimary a {
-    display: block;
     padding: 20px;
     border-bottom: 2px solid transparent;
+    border-top: 0px;
 }
+
 .navPrimary a:hover {
-    color: var(--blue);
     border-bottom: 2px solid var(--blue); 
+    border-top: 0px;
 }
 /*
 .border:hover {
