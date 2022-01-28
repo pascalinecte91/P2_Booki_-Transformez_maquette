@@ -24,13 +24,10 @@
 ***************/
 :root {
     font-family: 'Raleway', sans-serif;
-    font-size: 30px;
-    line-height: 32px;
-    margin-left: 5px;
-
-
+    font-size: 22px;
 }
 
+/*
 main {
     display: flex;
     flex-direction: row;
@@ -38,47 +35,48 @@ main {
     width: 100vw;
     height: auto;
 }
+//
 
 /********************
-    Class - generals   
+      HEADER   
 *********************/
 
-.flexBetween {
+
+body > header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.flexAround {
+.logo {
+    flex-grow: 1; 
+}
+
+.logo img {
+    width: 120px;
+    height: 50px;
+}
+
+.navPrimary ul {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
-.flexCenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.flexStart {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
 
-.spaceLink {
-    width: 25%;
-}
+/* .border {
+    display:block;
+    width:140px;
+    border-top:3px solid transparent;
+} 
 
-.colorLink {
-    color: black
+a:hover {
+    color: var(--blue);
+    border-top:2px solid var(--blue); 
 }
-
-.colorLinkBlue {
- color: var(--blue);
+.sizeLinkNav {
+    width: 150px;
+    height: 99px;  
+    padding: 15px;
 }
-
+*/
 /**************
    Utilities     
 ***************/
@@ -98,66 +96,34 @@ ul {
 h4 {
     font-size: 20px;
 }
-
+/*
 .search {
     font-size: 12px;
 }
 
-i {
-    font-size: 25px;
-    padding-right: 10px;
-}
 
 .fas {
     color: var(--blue);
     padding: 0;
 }
 
-ul li {
-    padding: 15px;
-}
 
 .textBlue {
     color: var(--blue);
 }
-
+*/
 /***************
       Nav    
 ****************/
 
-nav {
-    padding: 5px 10px 0px 0px;
-    font-size: 20px;
-    color: black;
-}
 
-.sizeLinkNav {
-    width: 150px;
-    height: 99px;  
-}
-
-
-.navBorder {
-    border-top: 2px solid var(--blue);
-
-}
-
-.logo img {
-    padding-top: 0;
-    width: 120px;
-    height: 50px;
-}
 
 /*******************
-   header - Search    
+       Search    
 ********************/
 
-header {
-    margin-left: 10px;
-}
 
-/**************************/
-
+/* 
 
 .borderSearch {
     width: 450px;
@@ -200,7 +166,7 @@ header {
 ********************/
 
 
-.btn-gray-light {
+/* .btn-gray-light {
     font-size: 15px;
     margin-right: 20px;
     border: 1px solid var(--gray-light);
@@ -244,7 +210,7 @@ header {
 /*********************
     Generals Sections     
 **********************/
-
+/*
 .hebergement .title,
 .popular .title,
 .activity .title,
@@ -252,12 +218,12 @@ h2 {
     font-size: 22px;
     color: black;
     padding: 5px 10px 5px 5px;
-}
-
+} 
+ 
 /*****************
     Hebergments     
 ******************/
-
+/*
 .hebergement {
     display: flex;
     flex-flow: row wrap;
@@ -316,7 +282,7 @@ p {
 /*****************
       Popular     
 ******************/
-
+/*
 .popular {
     background: var(--gray-light);
     flex: 1;
@@ -367,7 +333,7 @@ p {
 /*****************
     Activities      
 ******************/
-
+/*
 .activity {
     margin-bottom: 60px;
     padding: 10px 10px;
@@ -414,7 +380,7 @@ p {
 /*****************
     FOOTER      
 ******************/
-
+/*
 .containerFooter {
     height: 50px;
     display: grid;
@@ -435,7 +401,6 @@ p {
 h4,
 li {
     padding: 20px 10px 10px 15px;
-    line-height: 5px;
 }
 
 .containerFooter,

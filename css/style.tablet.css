@@ -1,21 +1,33 @@
-html {
-    height: 70vh;
-    margin-right: 15px;
+
+ /*****************
+    
+*******************/
+body > header {
+    padding: 0px 40px;
+}
+.logo {
+    flex-grow: 1; 
 }
 
- .colorLink {
-    margin-left: 50px;
+.logo img {
+    width: 120px;
+    height: 50px;
+    margin-top: 40px;
 }
 
-.logo  {
-    margin-right: 40px;
-    margin-left: 5px;
+.navPrimary a {
+    display: block;
+    padding: 40px;
+    border-top: 1px solid transparent;
 }
-h1 {
-    font-size: 25px;
+
+.navPrimary a:hover {
+    color: var(--blue);
+    border-top: 2px solid var(--blue); 
 }
 
 
+/*
 .borderSearch {
     width: 350px;
     height: 20px;
@@ -73,25 +85,14 @@ form  {
 }
 
 .btn-gray-light {
-    font-size: 13px;
-    border: 1px solid var(--gray-light);
-    background-color: white;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: all 0.2s;
     width: 100px;
     height: 30px;
 }
 
 .filtersIcone {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25px;
-    width: 52px;
-    height: 32px;
-    color: var(--blue);
-    background-color: var(--blue-light);
+    width: 42px;
+    height: 42px;
+ 
    
 }
 

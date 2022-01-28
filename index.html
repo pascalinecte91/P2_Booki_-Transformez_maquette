@@ -14,63 +14,64 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.tablet.css" media="screen and (max-width: 992px)">
-    <link rel="stylesheet" type="text/css" href="css/style.mobile.css" media="screen and (max-width: 767px)">
+    <link rel="stylesheet" type="text/css" href="./css/style.desktop.css" media="only screen and (min-width: 992px)">
+    <link rel="stylesheet" type="text/css" href="./css/style.tablet.css"
+        media="only screen and (min-width: 768px) and (max-width: 991.98px)">
+    <link rel="stylesheet" type="text/css" href="./css/style.mobile.css" media="only screen and (max-width: 767.98px)">
 </head>
 
 <body>
-    <!--nav-->
-  
-        <nav class="logo">
-            <div class="logo flexBetween">
-                <div class="sizeLinkNav flexCenter">
-                    <img class="logo" src="./images/logo/Booki.png" alt="logo_booki">
-                </div>
-                <div class="spaceLink flexAround">
-                    <div class="sizeLinkNav flexCenter navBorder">
-                        <a class="colorLinkBlue" href="#">Hébergements</a>
-                    </div>
-                    <div class="sizeLinkNav flexCenter">
-                        <a class="colorLink" href="#">Actualités</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    
-    <!-- END nav-->
     <header>
+        <picture class="logo">
+            <img src="./images/logo/Booki.png" alt="Logo" />
+        </picture>
+        <nav class="navPrimary">
+            <ul>
+                <li><a href="#hebergement">Hébergements</a></li>
+                <li><a href="#activite">Activités</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
     <!--search and filters-->
+    <!--
     <section search>
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1><br>
         <p>En plein centre ville ou en pleine nature</p>
-            <form action="#">
-                <div class=" borderSearch  flexStart">
-                    <button class="searchIconeMap"><i class="fas fa-map-marker-alt"></i></button>
-                    <input class="searchInput" type="search" placeholder="Marseille, France">
-                    <button class="searchButton">Rechercher</button>
-                </div>
-            </form>
-        
+        <form action="#">
+            <div class=" borderSearch  flexStart">
+                <button class="searchIconeMap"><i class="fas fa-map-marker-alt"></i></button>
+                <input class="searchInput" type="search" placeholder="Marseille, France">
+                <button class="searchButton" type="submit">
+                    <span class="searchDesktop">Rechercher</span>
+                    <span class="fas fa-search searchMobile flexCenter"></span>
+                </button>
+            </div>
+        </form>
+
         <div class="filters flexStart">
             <h2>Filtres</h2>
- 
-            <button class="btn btn-gray-light flexStart"><i class="fas fa-money-bill filtersIcone "></i> Economique</button>
+
+            <button class="btn btn-gray-light flexStart"><i class="fas fa-money-bill filtersIcone "></i>
+                Economique</button>
             <button class="btn btn-gray-light flexStart"> <i class="fas fa-child filtersIcone"></i> Familiale</button>
             <button class="btn btn-gray-light flexStart"> <i class="fas fa-heart filtersIcone"></i> Romantique</button>
             <button class="btn btn-gray-light flexStart"> <i class="fas fa-dog filtersIcone"></i> Animals</button>
-     
+
         </div>
-        <div class="info">
+        <div class="info ">
             <i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville.
         </div>
     </section>
-</header>
+-->
     <!--END search ans filters-->
     <!-- <main class="heberg_and_activ"> -->
 
-        <!--hebergements-->
+    <!--hebergements-->
 
-   <!--      <section class="hebergement">
+    <!--      <section class="hebergement">
             <h3 class="title">Hébergements à Marseille</h3>
             <article class="hebergItems">
                 <div class="hotel">
@@ -166,10 +167,10 @@
             </article>
 
         </section> -->
-        <!--END section hebergmnt-->
+    <!--END section hebergmnt-->
 
-        <!--section popular-->
-       <!--  <section class="popular">
+    <!--section popular-->
+    <!--  <section class="popular">
             <h2 class="title">Les plus populaires</h2>
             <aside class="popularItem">
                 <img class="popularImg" src="./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
@@ -213,11 +214,11 @@
                 </div>
             </aside>
         </section> -->
-    </main>
+
     <!--END section Popular-->
 
     <!--Activity-->
-  <!--   <section class="activity">
+    <!--   <section class="activity">
         <h2 class="title">Activités à Marseille</h2>
         <div class="activitiesList">
             <div class="column">
@@ -257,7 +258,7 @@
     <!--END section Activity-->
 
     <!--footer-->
- <!--    <footer class="containerFooter">
+    <!--    <footer class="containerFooter">
         <div class="containerElem1">
             <h4>A propos</h4>
             <ul>

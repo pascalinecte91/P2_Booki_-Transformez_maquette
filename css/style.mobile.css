@@ -1,26 +1,63 @@
-body {
-    margin-left:15px;
+
+
+/*****************
+     HEADER
+*******************/
+
+body > header {
+    flex-wrap: wrap;    
+    
 }
 
 .logo {
-  flex-flow: column wrap;  
-  align-content: center;  
-  margin-right: 0px;
+    text-align: center; 
+    width: 100%; 
 }
+
 
 .logo img {
-    padding-top: 0;
-    width: 60px;
-    height: 30px;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 50px;
 }
+
+.navPrimary {
+    width: 100%;
+    text-align: center;
+}
+.navPrimary li {
+    width: 50%;
+}
+
+.navPrimary {
+    width: 100%;
+}
+.navPrimary a {
+    display: block;
+    padding: 20px;
+    border-bottom: 2px solid transparent;
+}
+.navPrimary a:hover {
+    color: var(--blue);
+    border-bottom: 2px solid var(--blue); 
+}
+/*
+.border:hover {
+    border-top: none;
+}
+
 h1 {
-    font-size: 18px;  
+    font-size:25px;
 }
 
-p {
-font-size: 12px;
+ul {
+    padding-bottom: 15px;
 }
-
+ /*****************
+    SEARCH   
+******************/
+/*
 .borderSearch {
     width: 100%;
     border-radius: 10px;
@@ -34,4 +71,71 @@ font-size: 12px;
     line-height: 13px;
 }
 
-+
+.search h1 {
+    font-size: 18px;
+}
+.searchInput { 
+    border-radius: 10px;
+    border: 1px solid var(--gray-dark);
+}
+
+.searchButton {
+    width: 50px;
+}
+.searchDesktop {
+    display: none;
+ }
+ 
+ .searchMobile {
+     display: block;
+     width: 40px;
+     background-color: var(--blue);
+     color: white;
+     font-weight: bold;
+     border:none;
+     border-radius: 0 16px 16px 0;
+ }
+ 
+.filters  {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+.filters h2 {
+    font-size: 20px;
+}
+
+.btn-gray-light {
+    font-size:0px;
+    width: 50px;
+}
+.filtersIcone {
+    width: 42px;
+    height:42px;
+}
+ 
+
+
+.info i{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+ /*****************
+    FOOTER      
+******************/
+/*
+.containerFooter {
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding: 0;
+    
+}
+ 
+ 

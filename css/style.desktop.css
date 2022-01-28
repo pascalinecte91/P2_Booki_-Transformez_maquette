@@ -1,0 +1,28 @@
+
+/*************
+    HEADER     
+**************/
+
+body > header {
+    padding: 0px 40px;
+}
+.logo {
+    flex-grow: 1; 
+}
+
+.logo img {
+    width: 120px;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.navPrimary a {
+    display: block;
+    padding: 40px;
+    border-top: 2px solid transparent;
+}
+
+.navPrimary a:hover {
+    color: var(--blue);
+    border-top: 2px solid var(--blue); 
+}
