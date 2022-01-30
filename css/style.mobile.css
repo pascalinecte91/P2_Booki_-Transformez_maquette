@@ -28,6 +28,7 @@ body > header {
 
 .navPrimary li {
     width: 50%;
+    font-size: 16px;
 }
 
 .navPrimary a {
@@ -40,28 +41,44 @@ body > header {
     border-bottom: 2px solid var(--blue); 
     border-top: 0px;
 }
-/*
-.border:hover {
-    border-top: none;
-}
 
-h1 {
-    font-size:25px;
-}
-
-ul {
-    padding-bottom: 15px;
-}
  /*****************
     SEARCH   
 ******************/
-/*
-.borderSearch {
-    width: 100%;
-    border-radius: 10px;
-    line-height: 10px;
+
+.search h1 {
+    font-size: 25px;
 }
 
+.fa-map-marker-alt {
+    border-radius: 15px 0px 0px 15px;
+}
+
+.search p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.searchForm label {
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.searchForm i {
+    padding: 15px;
+}
+.searchForm input {
+    flex-grow: 1;
+}
+
+.searchForm button {
+    border-radius: 10px;
+}
+
+/*
 .filters  {
     display: flex;
     flex-flow: row wrap;
@@ -69,30 +86,6 @@ ul {
     line-height: 13px;
 }
 
-.search h1 {
-    font-size: 18px;
-}
-.searchInput { 
-    border-radius: 10px;
-    border: 1px solid var(--gray-dark);
-}
-
-.searchButton {
-    width: 50px;
-}
-.searchDesktop {
-    display: none;
- }
- 
- .searchMobile {
-     display: block;
-     width: 40px;
-     background-color: var(--blue);
-     color: white;
-     font-weight: bold;
-     border:none;
-     border-radius: 0 16px 16px 0;
- }
  
 .filters  {
     display: flex;

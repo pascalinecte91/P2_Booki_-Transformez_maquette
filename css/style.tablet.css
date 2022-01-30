@@ -3,6 +3,21 @@
     
 *******************/
 
+.searchForm label {
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.searchForm button {
+    width: 60px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: var(--blue);
+}
+
 
 
 
