@@ -82,13 +82,25 @@ body > header {
     
 }
 
-/*******************
-       Filter  
-********************/
+/**********************
+       Filter  / Info
+***********************/
 .filtersBtn {
   flex-wrap: wrap;
+ 
 }
 
+.filtersBtn i,
+.info i {
+    color: var(--blue)
+}
+
+.info {
+    align-items: baseline;
+}
+/*****************
+        INFO   
+******************/
 
 
  /*****************

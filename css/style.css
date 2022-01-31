@@ -32,7 +32,6 @@ main {
     padding: 0px 40px;
 }
 
-
 h1 {
     font-size: 33px;
 }
@@ -48,8 +47,6 @@ ul {
 h4 {
     font-size: 20px;
 }
-
-
 
 
 /********************
@@ -101,7 +98,6 @@ body > header {
     background-color: var(--gray-light);
     padding: 20px;
     height: 52px;
-  
 }
 
 .search h1 {
@@ -114,8 +110,7 @@ body > header {
 
 .searchForm {
     display: flex;
-    margin: 20px 0px;
-   
+    margin: 20px 0px;  
 }
 
 .searchForm label {
@@ -126,8 +121,7 @@ body > header {
 
 .searchForm input {
     padding-left: 15px;
-    border: none;
-   
+    border: none;  
 }
 
 .searchForm button {
@@ -143,18 +137,14 @@ body > header {
     font-size: 18px;
 }
 
-
-
 /*******************
-       Filter  
+       FILTERS  
 ********************/
 
 .filters {
     display: flex;
     align-items: center;
     flex-flow: wrap;
-  
-
     font-size: 14px;
 }
 
@@ -163,11 +153,11 @@ body > header {
 }
 .filters h2 {
     font-size: 18px;
-   
+    padding-right: 10px;
 }
 
- .filtersBtn .btn-gray-light  {
-     display: flex;
+.filtersBtn .btn-gray-light  {
+    display: flex;
      align-items: center;
     font-size: 15px;
     background-color: white;
@@ -178,15 +168,12 @@ body > header {
     width: auto;
     height: 35px;
     padding-right: 10px;
-    margin: 10px;
-   
-    
-
+    margin: 10px 10px 10px 0px;   
 }
+
 button.btn-gray-light i {
     background-color: var(--blue-light);
     margin-right: 10px;
-    width: 50px;
     border-radius: 55px;
     width: 36px;
     height: 36px;
@@ -195,16 +182,32 @@ button.btn-gray-light i {
     justify-content: center;   
 }
 
-
-
 button.btn-gray-light:hover{
   background-color: #0065FC;
-    color: white;
-   
+    color: white;   
 }
 
+/*****************
+        INFO   
+******************/
 
-
+.info {
+  display: flex;
+    align-items: center;
+    font-size: 13px;
+    padding: 15px 0px 15px 0px;
+}
+.info i {
+    border: 1px solid var(--gray-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 25px;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    
 
 /*********************
     Generals Sections     
