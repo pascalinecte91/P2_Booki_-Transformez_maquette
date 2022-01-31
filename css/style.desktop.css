@@ -6,6 +6,11 @@
     content: 'rechercher';
 }
 
+.searchForm button {
+    width: 110px;
+}
 
 
-
+/*******************
+       Filter  
+********************/

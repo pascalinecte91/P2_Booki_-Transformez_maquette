@@ -1,6 +1,6 @@
 
  /*****************
-    
+      Search
 *******************/
 
 .searchForm label {
@@ -18,80 +18,13 @@
     background-color: var(--blue);
 }
 
-
-
-
-/*
-.borderSearch {
-    width: 350px;
-    height: 20px;
-    border-radius: 10px;
-    
+.search h1 {
+    font-size: 16px;
 }
 
-.filters .filtersIcone, h2 {
-    font-size: 15px;
-    height: 30px;
-    width: 30px;
+.search p {
+    font-size: 12px;
 }
-
-.filters button {
-    padding:15px;
-}
-
-.searchButton {
-    margin-top:15px; 
-}
-form  {
-    margin: 40px 0 0 ;
-}
-
-
-.filtersIcone {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25px;
-    width: 42px;
-    height: 42px;
-    color: var(--blue);
-    background-color: var(--blue-light);
-    margin-right: 10px; 
-}
-
-.filters {
-    margin-top: 45px;
-
-}
-
-.info i {
-    font-size: 14px;
-    padding: 40px 20px 30px 0px;
-    margin-left: 10px;
-}
-.info {
-    font-size: 14px;
-}
-
-.filters h2 {
-    padding: 10px;
-    margin-right: 25px;
-}
-
-.btn-gray-light {
-    width: 100px;
-    height: 30px;
-}
-
-.filtersIcone {
-    width: 42px;
-    height: 42px;
- 
-   
-}
-
-.filtersIcone:hover {
-    background: var(--blue);
-    color: white;
-    border: 1px solid var(--blue)
-}
+/*******************
+       Filter  
+********************/

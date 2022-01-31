@@ -1,5 +1,4 @@
 
-
 /*****************
      HEADER
 *******************/
@@ -50,12 +49,15 @@ body > header {
     font-size: 25px;
 }
 
-.fa-map-marker-alt {
-    border-radius: 15px 0px 0px 15px;
-}
 
+.search input {
+    border-top: 1px solid rgb(230, 225, 225);
+    border-bottom: 1px solid rgb(230, 225, 225);
+    height: 51px;
+
+}
 .search p {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 500;
     margin-bottom: 25px;
     margin-top: 10px;
@@ -76,45 +78,18 @@ body > header {
 
 .searchForm button {
     border-radius: 10px;
+    width: 60px;
+    
 }
 
-/*
-.filters  {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: flex-start;
-    line-height: 13px;
+/*******************
+       Filter  
+********************/
+.filtersBtn {
+  flex-wrap: wrap;
 }
 
- 
-.filters  {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: flex-start;
-}
 
-.filters h2 {
-    font-size: 20px;
-}
-
-.btn-gray-light {
-    font-size:0px;
-    width: 50px;
-}
-.filtersIcone {
-    width: 42px;
-    height:42px;
-}
- 
-
-
-.info i{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 10px;
-}
 
  /*****************
     FOOTER      

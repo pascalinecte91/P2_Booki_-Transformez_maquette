@@ -17,6 +17,7 @@
     --blue-light: #DEEBFF;
     --gray-light: #F2F2F2;
     --white-clouds: #ecf0f1;
+    --gray-dark:  rgb(230, 225, 225);
 }
 
 /**************
@@ -30,6 +31,26 @@
 main {
     padding: 0px 40px;
 }
+
+
+h1 {
+    font-size: 33px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+
+
 
 /********************
       HEADER   
@@ -73,8 +94,7 @@ body > header {
     font-size: 20px;
     color: black;
     padding: 0;
-    
- 
+    border-radius: 15px 0px 0px 15px;
 }
 
 .searchForm i {
@@ -84,8 +104,12 @@ body > header {
   
 }
 
+.search h1 {
+    font-size: 20px;
+}
 .search p {
     padding-top: 10px;
+    font-size: 15px;
 }
 
 .searchForm {
@@ -119,26 +143,6 @@ body > header {
     font-size: 18px;
 }
 
-/**************
-   Utilities     
-***************/
-
-h1 {
-    font-size: 33px;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
-}
-
-h4 {
-    font-size: 20px;
-}
-
 
 
 /*******************
@@ -147,45 +151,58 @@ h4 {
 
 .filters {
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-flow: wrap;
+  
+
+    font-size: 14px;
 }
- .btn-gray-light {
+
+.filtersBtn {
+    display: flex;
+}
+.filters h2 {
+    font-size: 18px;
+   
+}
+
+ .filtersBtn .btn-gray-light  {
+     display: flex;
+     align-items: center;
     font-size: 15px;
-    margin-right: 20px;
-    border: 1px solid var(--gray-light);
     background-color: white;
-    border-radius: 30px;
+    border: 1px solid var(--gray-dark);
+    border-radius: 25px;
     cursor: pointer;
     transition: all 0.2s;
-    width: 180px;
-    height: 50px;
-}
-
-.filters {
+    width: auto;
+    height: 35px;
+    padding-right: 10px;
+    margin: 10px;
    
-    border-radius: 25px;
-    width: 52px;
-    height: 52px;
-    color: var(--blue);
+    
+
+}
+button.btn-gray-light i {
     background-color: var(--blue-light);
     margin-right: 10px;
+    width: 50px;
+    border-radius: 55px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
 }
 
-.filtersIcone:hover {
-    background: var(--blue);
+
+
+button.btn-gray-light:hover{
+  background-color: #0065FC;
     color: white;
-    border: 1px solid var(--blue)
+   
 }
 
-
-
-.info i {
-    font-size: 22px;
-    padding: 40px 20px 30px 0px;
-    margin-left: 10px;
-
-}
 
 
 
