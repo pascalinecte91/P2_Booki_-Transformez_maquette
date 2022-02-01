@@ -123,6 +123,7 @@ body>header {
 .searchForm input {
     padding-left: 15px;
     border: none;
+    font-weight: 200;
 }
 
 .searchForm button {
@@ -130,7 +131,6 @@ body>header {
     border-radius: 0 10px 10px 0px;
     background-color: var(--blue);
     color: white;
-    width: 110px;
     height: 52px;
     padding-bottom: 5px;
     font-weight: 800;
@@ -161,9 +161,9 @@ body>header {
 .filtersBtn .btn-gray-light {
     display: flex;
     align-items: center;
-    font-size: 15px;
+    font-size: 17px;
     background-color: white;
-    border: 1px solid var(--gray-dark);
+    border: 1px solid var(--gray-light);
     border-radius: 25px;
     cursor: pointer;
     transition: all 0.2s;
@@ -175,6 +175,7 @@ body>header {
 
 button.btn-gray-light i {
     background-color: var(--blue-light);
+    color: var(--blue);
     margin-right: 10px;
     border-radius: 55px;
     width: 36px;
@@ -185,7 +186,7 @@ button.btn-gray-light i {
 }
 
 button.btn-gray-light:hover {
-    background-color: #0065FC;
+    background-color: var(--blue-light);
     color: white;
 }
 
@@ -197,7 +198,8 @@ button.btn-gray-light:hover {
     display: flex;
     align-items: center;
     font-size: 13px;
-    padding: 15px 0px 15px 0px;
+    font-weight: 300;
+    padding: 15px 0px 20px 0px;
 }
 
 .info i {
@@ -208,6 +210,7 @@ button.btn-gray-light:hover {
     margin-right: 10px;
     border-radius: 25px;
     align-items: center;
+    color: var(--blue);
     width: 24px;
     height: 24px;
 }
@@ -216,7 +219,7 @@ button.btn-gray-light:hover {
     Generals Sections     
 **********************/
 
-.hebergement .title,
+.hebergements .title,
 .popular .title,
 .activity .title,
 h2 {
@@ -233,47 +236,44 @@ h2 {
 /* article h3 {
     display: flex;
 } */
-article {
-    background-color: var(--gray-light);
-    width: 65%;
-    display: flex;
-    flex-wrap: wrap;
 
-}
-
-.hebergement {
+.hebergements {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
+    background-color: var(--gray-light);
+    width: 65%;
+    border-radius: 15px 15px;
+    padding: 0px
+   
+ 
+    
 }
 
-.hebergement,
+.hebergements,
 .nameHotel,
 .price
  {
     font-size: 14px;
     color: black;
-    padding-left: 8px;
 }
 
-figure>a>img {
+figure > a > img {
     border-radius: 10px 10px;
-    padding-bottom: 10px;
-    padding-top: 3px;
+    padding: 5px 5px 10px 5px;
+  
 }
 
-
-.hebergItems {
+figure {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 10px 10px 10px 10px;
     background-color: white;
+    border-radius: 10px 10px;
 }
 
-
-.hebergItems .hotelImg {
+figure .hotelImg {
     width: 170px;
     height: 100px;
     display: flex;
@@ -284,6 +284,9 @@ figure i {
     font-size: 11px;
     color: var(--blue);
     padding-bottom: 10px;
+}
+
+figcaption {
     padding-left: 8px;
 }
 

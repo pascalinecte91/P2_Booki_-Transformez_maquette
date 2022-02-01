@@ -51,7 +51,7 @@ body > header {
 
 
 .search input {
-    border-top: 1px solid rgb(230, 225, 225);
+    border-top: 1px solid var(--gray-light);
     border-bottom: 1px solid rgb(230, 225, 225);
     height: 51px;
 
@@ -79,6 +79,8 @@ body > header {
 .searchForm button {
     border-radius: 10px;
     width: 60px;
+    margin: 0px 0 0px -5px;
+    height: 50px;
     
 }
 
@@ -89,10 +91,12 @@ body > header {
   flex-wrap: wrap;
  
 }
+.filters .filtersBtn i {
+    color: var(--blue); 
+}
 
-.filtersBtn i,
 .info i {
-    color: var(--blue)
+    color: var(--blue);
 }
 
 .info {
@@ -102,8 +106,33 @@ body > header {
 /*****************
     Hebergments     
 ******************/
-article {
+
+
+.hebergements {
+    background-color: var(--gray-light);
     width: 100%;
+    display: block;
+    padding: 0px 0px;
+
+
+}
+
+.hebergements {
+    background: var(--gray-light);
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+figure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    background-color: white;
+    
+
 }
 
  /*****************
