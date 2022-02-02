@@ -1,8 +1,14 @@
+
+
+main {
+    padding: 0px;
+}
+
 /*****************
      HEADER
 *******************/
 
-body>header {
+body > header {
     flex-wrap: wrap;
 }
 
