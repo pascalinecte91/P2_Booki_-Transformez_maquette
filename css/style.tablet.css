@@ -1,5 +1,4 @@
-
- /*****************
+/*****************
       Search
 *******************/
 
@@ -10,7 +9,7 @@
 }
 
 .searchForm button {
-    width: 60px;  
+    width: 60px;
     margin: 0px 0 -5px -5px;
     border-radius: 10px;
     border: none;
@@ -26,13 +25,14 @@
 .search p {
     font-size: 12px;
 }
+
 /*******************
        HEBERGEMENTS 
 ********************/
 .hebergements {
     padding: 0px;
     margin: 20px 40px 20px 40px;
-    width: auto;  
+    width: auto;
 }
 
 figure {

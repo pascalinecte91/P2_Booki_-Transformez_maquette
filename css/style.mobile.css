@@ -2,8 +2,8 @@
      HEADER
 *******************/
 
-body > header {
-    flex-wrap: wrap; 
+body>header {
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -126,9 +126,10 @@ figure .hotelImg {
 }
 
 figure {
-   padding: 3px; 
-   box-shadow: 5px 3px 3px var(--gray-light);
+    padding: 3px;
+    box-shadow: 5px 3px 3px var(--gray-light);
 }
+
 /*****************
     FOOTER      
 ******************/
