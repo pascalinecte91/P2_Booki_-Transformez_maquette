@@ -1,16 +1,15 @@
-
 /*****************
      HEADER
 *******************/
 
 body > header {
     flex-wrap: wrap;
-    padding: 0px;   
+  
 }
 
 .logo {
-    text-align: center; 
-    width: 100%; 
+    text-align: center;
+    width: 100%;
 }
 
 .logo img {
@@ -37,11 +36,11 @@ body > header {
 }
 
 .navPrimary a:hover {
-    border-bottom: 2px solid var(--blue); 
+    border-bottom: 2px solid var(--blue);
     border-top: 0px;
 }
 
- /*****************
+/*****************
     SEARCH   
 ******************/
 
@@ -56,6 +55,7 @@ body > header {
     height: 51px;
 
 }
+
 .search p {
     font-size: 17px;
     font-weight: 500;
@@ -72,6 +72,7 @@ body > header {
 .searchForm i {
     padding: 15px;
 }
+
 .searchForm input {
     flex-grow: 1;
 }
@@ -81,18 +82,19 @@ body > header {
     width: 60px;
     margin: 0px 0 0px -5px;
     height: 50px;
-    
+
 }
 
 /**********************
        Filter  / Info
 ***********************/
 .filtersBtn {
-  flex-wrap: wrap;
- 
+    flex-wrap: wrap;
+
 }
+
 .filters .filtersBtn i {
-    color: var(--blue); 
+    color: var(--blue);
 }
 
 .info i {
@@ -107,35 +109,30 @@ body > header {
     Hebergments     
 ******************/
 
-
 .hebergements {
-    background-color: var(--gray-light);
+    flex-direction: column;
+    background-color: transparent;
     width: 100%;
-    display: block;
-    padding: 0px 0px;
-
-
+    margin: 0px;
+    border-radius: 0px;
 }
 
-.hebergements {
-    background: var(--gray-light);
+.hebergements a {
     width: 100%;
+}
+
+figure .hotelImg {
+    flex-direction: column;
     object-fit: cover;
-    object-position: center;
+    padding: 3px;
+    width: 100%;
 }
-
 
 figure {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 10px 10px 10px 10px;
-    background-color: white;
-    
-
+   padding: 3px; 
+   box-shadow: 5px 3px 3px var(--gray-light);
 }
-
- /*****************
+/*****************
     FOOTER      
 ******************/
 /*

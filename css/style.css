@@ -28,8 +28,8 @@
     font-size: 22px;
 }
 
-main {
-    padding: 0px 40px;
+main  {
+    padding: 0px 0px;
 }
 
 h1 {
@@ -53,7 +53,7 @@ h4 {
       HEADER   
 *********************/
 
-body>header {
+header {
     display: flex;
     padding: 0px 40px;
 }
@@ -86,6 +86,10 @@ body>header {
 /********************
       SEARCH
 *********************/
+.search {
+padding: 0px 40px;
+}
+
 .fa-map-marker-alt {
     background-color: var(--gray-light);
     font-size: 20px;
@@ -147,6 +151,8 @@ body>header {
     align-items: center;
     flex-flow: wrap;
     font-size: 14px;
+    padding: 0px 40px;
+        
 }
 
 .filtersBtn {
@@ -199,7 +205,7 @@ button.btn-gray-light:hover {
     align-items: center;
     font-size: 13px;
     font-weight: 300;
-    padding: 15px 0px 20px 0px;
+    padding:  20px 40px 30px 40px;
 }
 
 .info i {
@@ -233,22 +239,16 @@ h2 {
 
 
 
-/* article h3 {
-    display: flex;
-} */
-
 .hebergements {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: var(--gray-light);
     width: 65%;
     border-radius: 15px 15px;
-    padding: 0px
-   
- 
-    
+    margin-left: 40px;
 }
+
 
 .hebergements,
 .nameHotel,
@@ -258,13 +258,7 @@ h2 {
     color: black;
 }
 
-figure > a > img {
-    border-radius: 10px 10px;
-    padding: 5px 5px 10px 5px;
-  
-}
-
-figure {
+figure { 
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -274,6 +268,7 @@ figure {
 }
 
 figure .hotelImg {
+    border-radius: 15px  15px 0px 0px;
     width: 170px;
     height: 100px;
     display: flex;
@@ -287,7 +282,8 @@ figure i {
 }
 
 figcaption {
-    padding-left: 8px;
+    padding: 10px;
+    line-height: 20px;
 }
 
 /*****************

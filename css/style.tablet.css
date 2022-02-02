@@ -10,8 +10,7 @@
 }
 
 .searchForm button {
-    width: 60px;
-    
+    width: 60px;  
     margin: 0px 0 -5px -5px;
     border-radius: 10px;
     border: none;
@@ -28,5 +27,23 @@
     font-size: 12px;
 }
 /*******************
-       Filter  
+       HEBERGEMENTS 
 ********************/
+
+
+.hebergements {
+    background-color: var(--gray-light);
+    border-radius: 15px 15px;
+    padding: 0px;
+    margin: 20px 40px 20px 40px;
+    width: auto;  
+}
+
+figure {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    background-color: white;
+    border-radius: 10px 10px;
+}
