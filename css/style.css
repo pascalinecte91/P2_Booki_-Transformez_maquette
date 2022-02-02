@@ -29,7 +29,7 @@
 }
 
 main {
-    padding: 0px 0px;
+    padding: 0px 40px;
 }
 
 h1 {
@@ -90,9 +90,7 @@ header {
 /********************
       SEARCH
 *********************/
-.search {
-    padding: 0px 40px;
-}
+
 
 .fa-map-marker-alt {
     background-color: var(--gray-light);
@@ -155,7 +153,6 @@ header {
     align-items: center;
     flex-flow: wrap;
     font-size: 14px;
-    padding: 0px 40px;
 }
 
 .filtersBtn {
@@ -207,7 +204,7 @@ button.btn-gray-light:hover {
     align-items: center;
     font-size: 13px;
     font-weight: 300;
-    padding: 20px 40px 30px 40px;
+    padding: 20px 40px 30px 0px;
 }
 
 .info i {
@@ -235,8 +232,13 @@ h2 {
     color: black;
 }
 
+
+/* .hebergPopular {
+    display: flex;
+}
+ */
 /*****************
-    Hebergments     
+    HEBERGEMENTS    
 ******************/
 .hebergements {
     display: flex;
@@ -245,13 +247,13 @@ h2 {
     background-color: var(--gray-light);
     width: 65%;
     border-radius: 15px 15px;
-    margin-left: 40px;
+    
 }
 
 .hebergements .title {
     display: inline;
     width: 100%;
-    flex-wrap: nowrap ;
+    flex-wrap: nowrap;
     justify-content: flex-start;
     background-color: transparent;
     padding: 25px 0px 5px 20px;
@@ -296,52 +298,77 @@ figcaption {
 /*****************
       Popular     
 ******************/
-/*
+/* 
+
 .popular {
     background: var(--gray-light);
     flex: 1;
+    width: 40%;
     display: flex;
     flex-direction: column;
     border-radius: 15px;
+    padding: 0px 0px 5px 10px;
+    margin: 0px 20px 0px 20px;
+}
 
+h2.title {
+    padding: 25px 0px 20px 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .popularItem {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    border: 1px solid var(--gray-light);
-    background: white;
-    border-radius: 2px;
+    height: 130px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+h2.title {
+    padding-right: 15px;
 }
 
 .popularContent {
     padding-left: 15px;
 }
 
-.popularIcone,
-p {
-    font-size: 20px;
-}
-
-.popular .title {
-    font-size: 20px;
-}
-
-.popular .popularImg {
+.popularImg {
     padding: 5px 5px 5px 5px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    object-fit: cover;
     width: 30%;
     max-height: 300px;
-    border-radius: 10px;
+    border-radius: 15px 0px 0px 15px;
 }
 
 .popularName {
     font-size: 14px;
+}
+
+article i {
+    font-size: 11px;
+    color: var(--blue);
+    padding-bottom: 10px;
+   
+
+}
+
+figcaption {
+    flex-wrap: wrap;
+    line-height: 20px;
+}
 
 
+.popular,
+.popularName,
+.popularIcone {
+    font-size: 14px;
+    color: black;
 }
 
 /*****************
@@ -366,9 +393,9 @@ p {
     justify-content: space-around;
     border-radius: 15px;
     font-size: 20px;
-}
+} */
 
-.activitiesList .column article img {
+/* .activitiesList .column article img {
     width: 100%;
     height: calc(100% - 67px);
     object-fit: cover;
@@ -390,7 +417,7 @@ p {
 .activitiesList .column.double article {
     height: 48%;
 }
-
+ */
 /*****************
     FOOTER      
 ******************/

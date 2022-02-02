@@ -27,14 +27,26 @@
 }
 
 /*******************
-       HEBERGEMENTS 
+     HEBERGEMENTS 
 ********************/
 .hebergements {
     padding: 0px;
-    margin: 20px 40px 20px 40px;
-    width: auto;
 }
 
 figure {
     flex-flow: row nowrap;
 }
+
+
+/*******************
+       POPULAR 
+********************/
+
+/* .popularItem {
+    height: 170px;
+}
+
+figcaption p {
+    padding-bottom: 45px;
+}
+ */
