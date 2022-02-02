@@ -3,8 +3,7 @@
 *******************/
 
 body > header {
-    flex-wrap: wrap;
-  
+    flex-wrap: wrap; 
 }
 
 .logo {
@@ -82,7 +81,6 @@ body > header {
     width: 60px;
     margin: 0px 0 0px -5px;
     height: 50px;
-
 }
 
 /**********************
@@ -114,7 +112,6 @@ body > header {
     background-color: transparent;
     width: 100%;
     margin: 0px;
-    border-radius: 0px;
 }
 
 .hebergements a {
