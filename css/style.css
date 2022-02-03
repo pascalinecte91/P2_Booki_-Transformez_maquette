@@ -421,8 +421,8 @@ figcaption {
 /*****************
     FOOTER      
 ******************/
-/*
-.containerFooter {
+
+/* .containerFooter {
     height: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -444,7 +444,7 @@ li {
     padding: 20px 10px 10px 15px;
 }
 
-.containerFooter,
-h4 {
+/* .containerFooter,
+h4 { 
     margin-bottom: 15px;
-}
+}*/ 
