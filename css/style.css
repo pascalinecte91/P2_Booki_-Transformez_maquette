@@ -233,10 +233,10 @@ h2 {
 }
 
 
-/* .hebergPopular {
+ .hebergPopular {
     display: flex;
 }
- */
+ 
 /*****************
     HEBERGEMENTS    
 ******************/
@@ -246,8 +246,7 @@ h2 {
     justify-content: space-around;
     background-color: var(--gray-light);
     width: 65%;
-    border-radius: 15px 15px;
-    
+    border-radius: 15px 15px;    
 }
 
 .hebergements .title {
@@ -270,14 +269,14 @@ figure {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 10px 10px 10px 10px;
+    margin: 40px 10px 10px 10px;
     background-color: white;
     border-radius: 10px 10px;
     padding: 4px;
 }
 
 figure .hotelImg {
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
     width: 170px;
     height: 100px;
     display: flex;
@@ -290,7 +289,7 @@ figure i {
     padding-bottom: 10px;
 }
 
-figcaption {
+figcaption .hotelImg {
     padding: 10px;
     line-height: 20px;
 }
@@ -298,7 +297,7 @@ figcaption {
 /*****************
       Popular     
 ******************/
-/* 
+
 
 .popular {
     background: var(--gray-light);
@@ -307,8 +306,8 @@ figcaption {
     display: flex;
     flex-direction: column;
     border-radius: 15px;
-    padding: 0px 0px 5px 10px;
-    margin: 0px 20px 0px 20px;
+    padding: 0px 0px 5px 30px;
+    margin: 0px 0px 0px 20px;
 }
 
 h2.title {
@@ -323,7 +322,7 @@ h2.title {
     justify-content: flex-start;
     height: 130px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     margin: 8px;
 }
 

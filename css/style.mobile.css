@@ -1,8 +1,12 @@
+main {
+    padding:0px 0px;
+}
+
 /*****************
      HEADER
 *******************/
 
-body>header {
+body > header {
     flex-wrap: wrap;
 }
 
@@ -43,6 +47,11 @@ body>header {
     SEARCH   
 ******************/
 
+
+.search {
+    padding:0px 40px;
+}
+
 .search h1 {
     font-size: 25px;
 }
@@ -52,7 +61,6 @@ body>header {
     border-top: 1px solid var(--gray-light);
     border-bottom: 1px solid rgb(230, 225, 225);
     height: 51px;
-
 }
 
 .search p {
@@ -62,18 +70,8 @@ body>header {
     margin-top: 10px;
 }
 
-.searchForm label {
-    font-weight: 800;
-    cursor: pointer;
-    font-size: 18px;
-}
-
 .searchForm i {
     padding: 15px;
-}
-
-.searchForm input {
-    flex-grow: 1;
 }
 
 .searchForm button {
@@ -83,16 +81,22 @@ body>header {
     height: 50px;
 }
 
+.searchForm label {
+    font-weight: 900;
+}
 /**********************
        Filter  / Info
 ***********************/
+.filters {
+    padding: 0px 40px;    
+}
+
 .filtersBtn {
     flex-wrap: wrap;
-
 }
 
 .filters .filtersBtn i {
-    color: var(--blue);
+    color: var(--blue);   
 }
 
 .info i {
@@ -101,6 +105,9 @@ body>header {
 
 .info {
     align-items: baseline;
+    padding: 10px 0px 0px 40px;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 /*****************
@@ -130,6 +137,44 @@ figure {
     box-shadow: 5px 3px 3px var(--gray-light);
 }
 
+/*****************
+      Popular     
+******************/
+.hebergPopular {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+
+.popular {
+    width: 100%;
+    border-radius: 0px;
+    margin:0px;
+    padding: 0px 0px 0px 15px;
+}
+
+.popularImg {
+    object-fit: cover;
+    width: 40%;
+}
+
+.popularItem {
+    margin-bottom: 3px;
+}
+figcaption {
+    padding-left: 15px;;
+}
+.info {
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+
+h2.title {
+    padding: 30px 20px 15px 10px;  
+}
+
+h3.popularName {
+    font-size: 16px;
+}
 /*****************
     FOOTER      
 ******************/
