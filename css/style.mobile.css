@@ -1,5 +1,11 @@
+
 main {
     padding:0px 0px;
+
+
+header {
+    padding: 0px;
+
 }
 
 /*****************
@@ -9,6 +15,8 @@ main {
 body > header {
     flex-wrap: wrap;
 }
+
+
 
 .logo {
     text-align: center;
@@ -46,6 +54,7 @@ body > header {
 /*****************
     SEARCH   
 ******************/
+
 
 
 .search {
@@ -87,8 +96,10 @@ body > header {
 /**********************
        Filter  / Info
 ***********************/
+
+
 .filters {
-    padding: 0px 40px;    
+    padding:0px 40px;
 }
 
 .filtersBtn {
@@ -97,6 +108,10 @@ body > header {
 
 .filters .filtersBtn i {
     color: var(--blue);   
+
+.filters  i .fa {
+    color: var(--blue);
+
 }
 
 .info i {
@@ -105,9 +120,7 @@ body > header {
 
 .info {
     align-items: baseline;
-    padding: 10px 0px 0px 40px;
-    font-size: 16px;
-    font-weight: 700;
+    padding: 10px 40px;;
 }
 
 /*****************
