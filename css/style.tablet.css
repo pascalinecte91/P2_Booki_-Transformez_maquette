@@ -43,11 +43,24 @@ figure {
        POPULAR 
 ********************/
 
-/* .popularItem {
-    height: 170px;
+ .popularItem {
+    height: 220px;
+    flex-direction: column;
+    align-items: center;
+   
+    background-color: white;
+   
+    
 }
 
-figcaption p {
-    padding-bottom: 45px;
+.popularImg {
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 100px;
 }
- */
+
+
+figcaption p {
+    padding-bottom: 5px;
+}
+ 
