@@ -1,12 +1,12 @@
 main {
-    padding:0px 0px;
+    padding: 0px 0px;
 }
 
 /*****************
      HEADER
 *******************/
 
-body > header {
+body>header {
     flex-wrap: wrap;
 }
 
@@ -49,7 +49,7 @@ body > header {
 
 
 .search {
-    padding:0px 40px;
+    padding: 0px 40px;
 }
 
 .search h1 {
@@ -84,11 +84,12 @@ body > header {
 .searchForm label {
     font-weight: 900;
 }
+
 /**********************
        Filter  / Info
 ***********************/
 .filters {
-    padding: 0px 40px;    
+    padding: 0px 40px;
 }
 
 .filtersBtn {
@@ -96,7 +97,7 @@ body > header {
 }
 
 .filters .filtersBtn i {
-    color: var(--blue);   
+    color: var(--blue);
 }
 
 .info i {
@@ -119,6 +120,7 @@ body > header {
     background-color: transparent;
     width: 100%;
     margin: 0px;
+    
 }
 
 .hebergements a {
@@ -148,7 +150,7 @@ figure {
 .popular {
     width: 100%;
     border-radius: 0px;
-    margin:0px;
+    margin: 0px;
     padding: 0px 0px 0px 15px;
 }
 
@@ -160,21 +162,25 @@ figure {
 .popularItem {
     margin-bottom: 3px;
 }
+
 figcaption {
-    padding-left: 15px;;
+    padding-left: 15px;
+    ;
 }
+
 .info {
     padding-bottom: 15px;
     font-weight: 500;
 }
 
 h2.title {
-    padding: 30px 20px 15px 10px;  
+    padding: 30px 20px 15px 10px;
 }
 
 h3.popularName {
     font-size: 16px;
 }
+
 /*****************
     FOOTER      
 ******************/
