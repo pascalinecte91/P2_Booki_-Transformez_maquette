@@ -43,13 +43,17 @@ body > header {
     border-top: 0px;
 }
 
+header {
+
+    padding: 0px 30px;
+}
 /*****************
     SEARCH   
 ******************/
 
 
 .search {
-    padding:0px 40px;
+    padding:0px 30px;
 }
 
 .search h1 {
@@ -75,9 +79,9 @@ body > header {
 }
 
 .searchForm button {
-    border-radius: 10px;
+    border-radius: 15px;
     width: 60px;
-    margin: 0px 0 0px -5px;
+    margin: 0px 0 0px -7px;
     height: 50px;
 }
 
@@ -85,29 +89,45 @@ body > header {
     font-weight: 900;
 }
 /**********************
-       Filter  / Info
+       FILTERS  / INFO
 ***********************/
 .filters {
-    padding: 0px 40px;    
+    padding: 0px 30px;    
 }
 
 .filtersBtn {
     flex-wrap: wrap;
 }
 
-.filters .filtersBtn i {
-    color: var(--blue);   
+button.btn-gray-light i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: 55px;
+    height: 53px;
+    margin: -2px 7px 0px -6px;
 }
 
-.info i {
+
+.filtersBtn .btn-gray-light {
+    font-size: 19px;
+    font-weight: 600;
+    height: 55px;
+    border: 2px solid rgb(228, 226, 226);
+    margin: 10px 12px 10px 0px;
+}
+
+
+.infoFilters i {
     color: var(--blue);
 }
 
-.info {
+.infoFilters {
     align-items: baseline;
-    padding: 10px 0px 0px 40px;
-    font-size: 16px;
-    font-weight: 700;
+    padding: 15px 40px 40px 40px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 /*****************
@@ -118,25 +138,63 @@ body > header {
     flex-direction: column;
     background-color: transparent;
     width: 100%;
-    margin: 0px;
+    margin: 0px;  
 }
 
 .hebergements a {
     width: 100%;
+    box-shadow: 10px 5px 5px rgb(241, 238, 238);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.hebergements .title {
+    font-size: 24px;
+  
 }
 
 figure .hotelImg {
     flex-direction: column;
     object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    height: 140px;
     padding: 3px;
     width: 100%;
 }
 
 figure {
     padding: 3px;
-    box-shadow: 5px 3px 3px var(--gray-light);
+    box-shadow: 5px 30px 30px var(--gray-light);
+    margin: 10px 10px 5px 10px;
+    height: auto;
 }
 
+
+figcaption 
+.nameHotel, 
+.price {
+    font-size: 18px;
+    line-height: 24px; 
+}
+
+figure i {
+    font-size: 13px;
+}
+
+.hebergements figcaption {
+    padding: 7px 5px 0px 15px;
+}
+
+
+/******************/
+
+.plusInfo {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 900;
+  
+  }
 /*****************
       Popular     
 ******************/
@@ -150,30 +208,48 @@ figure {
     border-radius: 0px;
     margin:0px;
     padding: 0px 0px 0px 15px;
+    padding-bottom: 40px;   
 }
 
 .popularImg {
-    object-fit: cover;
     width: 40%;
+    border-radius: 20px 0px 0px 20px;
 }
 
 .popularItem {
-    margin-bottom: 3px;
+     height: 160px; 
 }
-figcaption {
-    padding-left: 15px;;
+
+ .popularItem figcaption  {
+    padding-left: 15px;
+    padding-top:15px;
+    line-height: 25px;
 }
-.info {
+
+.infoPopular {
     padding-bottom: 15px;
     font-weight: 500;
 }
 
-h2.title {
-    padding: 30px 20px 15px 10px;  
+.popular .title {
+    font-size: 24px;
+}
+
+.popularIcone {
+    font-size: 17px;
+    padding-top: 6px;
+}
+
+.popular 
+.popularName {
+    font-size: 19px;
 }
 
 h3.popularName {
     font-size: 16px;
+}
+.popular h2.title {
+    padding: 30px 15px 20px 20px;
 }
 /*****************
     FOOTER      
