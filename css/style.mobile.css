@@ -44,8 +44,7 @@ body > header {
 }
 
 header {
-
-    padding: 0px 30px;
+    padding: 0px 0px;
 }
 /*****************
     SEARCH   
@@ -136,24 +135,23 @@ button.btn-gray-light i {
 
 .hebergements {
     flex-direction: column;
-    background-color: transparent;
+   
     width: 100%;
     margin: 0px;  
 }
 
-.hebergements a {
+.hebergment a {
     width: 100%;
     box-shadow: 10px 5px 5px rgb(241, 238, 238);
     border-radius: 20px 20px 20px 20px;
 }
 
-.hebergements .title {
+.hebergment .title {
     font-size: 24px;
   
 }
 
-figure .hotelImg {
-    flex-direction: column;
+.hotelImg {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
     height: 140px;
@@ -161,26 +159,26 @@ figure .hotelImg {
     width: 100%;
 }
 
-figure {
+.hebergment {
+    flex-wrap: wrap;
     padding: 3px;
+    width: 100%;
     box-shadow: 5px 30px 30px var(--gray-light);
     margin: 10px 10px 5px 10px;
-    height: auto;
+    
 }
 
-
-figcaption 
 .nameHotel, 
 .price {
     font-size: 18px;
     line-height: 24px; 
 }
 
-figure i {
+.hebergment i {
     font-size: 13px;
 }
 
-.hebergements figcaption {
+.hebergment figcaption {
     padding: 7px 5px 0px 15px;
 }
 
@@ -263,5 +261,3 @@ h3.popularName {
     padding: 0;
     
 }
- 
- 

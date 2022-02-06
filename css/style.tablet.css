@@ -35,8 +35,10 @@
     color: black;
 }
 
-figure {
-    flex-flow: row nowrap;
+.hebergment {
+    width: 30%;
+    height: 35%;
+    flex-flow: row wrap;
 }
 
 /*******************/
