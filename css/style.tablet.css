@@ -26,21 +26,43 @@
      HEBERGEMENTS 
 ********************/
 .hebergements {
-    padding: 0px;
+    padding-top: 10px;
 }
 
 .hebergements .title {
     padding: 15px 0px 0px 25px;
     font-size: 17px;
     color: black;
+    text-align: center;
 }
 
 .hebergment {
     width: 30%;
-    height: 35%;
+    height: 30%;
     flex-flow: row wrap;
+    border-radius: 20px 20px;
 }
 
+.hebergment .hotelImg {
+    border-radius: 15px 15px 0px 0px;
+}
+.hebergment figcaption {
+    line-height: 17px; 
+  
+
+}
+
+.nameHotel {
+    font-size: 13px;
+}
+
+.price {
+    font-size: 12px;
+}
+
+.plusInfo {
+    font-size: 18px;
+}
 /*******************/
 
 .popular .title,
@@ -59,7 +81,13 @@ h2.title {
  .popularItem {
     height: 220px;
     flex-direction: column;
-    align-items: center;    
+    align-items: flex-start;   
+}
+
+.popularItem figcaption  {
+    padding-left: 10px;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .popularImg {

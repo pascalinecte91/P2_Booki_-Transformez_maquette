@@ -78,9 +78,9 @@ header {
 }
 
 .searchForm button {
-    border-radius: 15px;
+    border-radius: 12px;
     width: 60px;
-    margin: 0px 0 0px -7px;
+    margin: 0px 0 0px -8px;
     height: 50px;
 }
 
@@ -135,14 +135,15 @@ button.btn-gray-light i {
 
 .hebergements {
     flex-direction: column;
-   
+    padding: 0px 15px 0px 15px;
     width: 100%;
     margin: 0px;  
+    gap: 0px;
 }
 
 .hebergment a {
     width: 100%;
-    box-shadow: 10px 5px 5px rgb(241, 238, 238);
+    box-shadow: -0px 6px 5px var(--gray-light);
     border-radius: 20px 20px 20px 20px;
 }
 
@@ -151,23 +152,24 @@ button.btn-gray-light i {
   
 }
 
-.hotelImg {
+.hebergment .hotelImg {
+    height: 130px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
-    height: 140px;
     padding: 3px;
     width: 100%;
 }
-
 .hebergment {
     flex-wrap: wrap;
-    padding: 3px;
     width: 100%;
     box-shadow: 5px 30px 30px var(--gray-light);
-    margin: 10px 10px 5px 10px;
-    
+    margin: 10px 0px 5px 10px; 
+    height: auto;
 }
 
+img .hotelImg {
+    border-radius: 30px 20px 0px 0px;
+}
 .nameHotel, 
 .price {
     font-size: 18px;
@@ -205,7 +207,7 @@ button.btn-gray-light i {
     width: 100%;
     border-radius: 0px;
     margin:0px;
-    padding: 0px 0px 0px 15px;
+    padding: 0px 15px 0px 15px;
     padding-bottom: 40px;   
 }
 
@@ -219,9 +221,9 @@ button.btn-gray-light i {
 }
 
  .popularItem figcaption  {
-    padding-left: 15px;
     padding-top:15px;
-    line-height: 25px;
+    line-height: 20px;
+    padding-bottom: 10px;
 }
 
 .infoPopular {
