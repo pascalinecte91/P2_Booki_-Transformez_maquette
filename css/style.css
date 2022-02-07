@@ -64,6 +64,7 @@ header {
 
 .logo {
     flex-grow: 1;
+    padding-left: 50px;
 }
 
 .logo img {
@@ -85,7 +86,7 @@ header {
 .navPrimary a:hover {
     color: var(--blue);
     border-top: 2px solid var(--blue);
-   
+
 }
 
 /********************
@@ -196,7 +197,7 @@ button.btn-gray-light i {
 
 button.btn-gray-light:hover {
     background-color: var(--blue-light);
-    color: white;
+    color: black;
 }
 
 /*****************
@@ -243,6 +244,7 @@ button.btn-gray-light:hover {
     width: 65%;
     gap: 10px 10px;
     background-color: var(--gray-light);
+    border-radius: 15px;
 }
 
 .hebergements .title {
@@ -253,20 +255,18 @@ button.btn-gray-light:hover {
     flex-wrap: nowrap;
     justify-content: flex-start;
     background-color: transparent;
-    padding: 25px 0px 15px 25px;
+    padding: 25px 0px 5px 25px;
 }
 
-
-.hebergment {
+.hebergment  {
     display: flex;
-    flex-direction:column;
-    width: 31%; 
+    flex-direction: column;
+    width: 29%;
     background-color: white;
     border-radius: 20px 20px;
     background-color: white;
     padding: 3px 3px 3px 3px;
-    height: 190px;
-   
+    height: 180px;
 }
 
 .hebergment .hotelImg {
@@ -274,7 +274,7 @@ button.btn-gray-light:hover {
     width: 100%;
     height: 100px;
     object-fit: cover;
-   
+
 }
 
 .hebergment i {
@@ -285,10 +285,11 @@ button.btn-gray-light:hover {
 
 .hebergment figcaption {
     line-height: 20px;
-    padding: 10px 5px 10px 5px;
+    padding: 5px 5px 10px 12px;
 }
 
-.nameHotel, .price {
+.nameHotel,
+.price {
     font-size: 14px;
     color: black;
 }
@@ -301,16 +302,17 @@ button.btn-gray-light:hover {
 
 /*****************/
 
- .plusInfo a {
-     color: black;
-     font-weight: bold;
-     font-size: 18px;
+.plusInfo a {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
 }
 
-.plusInfo  {
+.plusInfo {
     width: 100%;
     padding-left: 25px;
 }
+
 /*****************
       POPULAR    
 ******************/
@@ -322,23 +324,24 @@ button.btn-gray-light:hover {
     display: flex;
     flex-direction: column;
     border-radius: 15px;
-    padding: 0px 0px 7px 7px;
+    padding: 0px 7px 7px 7px;
     margin: 0px 0px 0px 20px;
 }
 
-.popular .title  {
+.popular .title {
     font-size: 22px;
     color: black;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 25px 10px 20px 10px;
+    padding: 25px 10px 5px 10px;
 }
 
 .popular .title i {
     color: black;
     font-size: 16px;
 }
+
 .popularItem {
     display: flex;
     flex-direction: row;
@@ -348,6 +351,7 @@ button.btn-gray-light:hover {
     background-color: white;
     border-radius: 15px;
     margin: 8px;
+    box-shadow: -0px 6px 5px var(--gray-light);
 }
 
 
@@ -374,7 +378,7 @@ button.btn-gray-light:hover {
 
 }
 
-.popularItem figcaption  {
+.popularItem figcaption {
     padding-top: 10px;
     flex-wrap: wrap;
     line-height: 18px;
@@ -382,8 +386,9 @@ button.btn-gray-light:hover {
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 8px;
-   
+
 }
+
 .popular,
 .popularName,
 .popularIcone {
@@ -395,49 +400,65 @@ button.btn-gray-light:hover {
     Activities      
 ******************/
 
-/* .activity .title {
+
+/* .article.activitiesList {
+    
+
+}
+ .ActivTitle {
     font-size: 22px;
     color: black;
-} */
-/*
-.activity {
-    margin-bottom: 60px;
-    padding: 10px 10px;
+     margin: 60px;
+    margin-left: 10px;
+} 
+
+.activit {
+    font-size: 20px;
+    color: black;
 }
+
+h3.activit  {
+padding-left: 15px;
+}
+
 .activitiesList {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 600px;
+    gap: 20px;
 }
-.activitiesList .column {
-    width: 23%;
+
+.column.double figcaption {
+    margin-bottom: 20px;
+}
+.activImg1 {
+    width:  calc(100% / 4);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     border-radius: 15px;
-    font-size: 20px;
-} */
+    font-size: 20px;  
+} 
 
-/* .activitiesList .column article img {
+
+
+ .activitiesList figure figcaption  img {
     width: 100%;
-    height: calc(100% - 67px);
+    height: calc(100% - 40px);
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
-.activitiesList .column article {
+
+.activitiesList figure figcaption {
     height: 100%;
-    box-shadow: 0px 0px 10px 0px var(--gray-light);
     border-radius: 15px;
 }
-.activitiesList .column article h3 {
-    margin: 0px;
-    padding-left: 5px;
-    ;
+
+.activitiesList figure.column.double figcaption {
+    height: calc(100% / 2 - 10px );
 }
-.activitiesList .column.double article {
-    height: 48%;
-}
- */
+
+ 
 /*****************
     FOOTER      
 ******************/
@@ -467,4 +488,4 @@ li {
 .containerFooter,
 h4 {
     margin-bottom: 15px;
-}
+} */
