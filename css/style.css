@@ -165,7 +165,7 @@ header {
 }
 
 .filters h2 {
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 .filtersBtn .btn-gray-light {
@@ -173,7 +173,7 @@ header {
     align-items: center;
     font-size: 17px;
     background-color: white;
-    border: 1px solid var(--gray-light);
+    border: 2px solid rgb(230, 225, 225);
     border-radius: 25px;
     cursor: pointer;
     transition: all 0.2s;
@@ -221,9 +221,9 @@ button.btn-gray-light:hover {
     border-radius: 25px;
     align-items: center;
     color: var(--blue);
-    width: 28px;
-    height: 24px;
-    font-size: 14px;
+    width: 23px;
+    height: 23px;
+    font-size: 11px;
 }
 
 /*******************
@@ -261,18 +261,18 @@ button.btn-gray-light:hover {
 .hebergment  {
     display: flex;
     flex-direction: column;
-    width: 29%;
+    width: 30%;
     background-color: white;
-    border-radius: 20px 20px;
+    border-radius: 15px 15px;
     background-color: white;
-    padding: 3px 3px 3px 3px;
-    height: 180px;
+    padding: 4px 4px 4px 4px;
+   
 }
 
 .hebergment .hotelImg {
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
     width: 100%;
-    height: 100px;
+    height: 92px;
     object-fit: cover;
 
 }
