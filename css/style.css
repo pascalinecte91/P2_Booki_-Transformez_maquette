@@ -16,6 +16,7 @@
     --blue: #0065FC;
     --blue-light: #DEEBFF;
     --gray-light: #F2F2F2;
+    --gray-light-box: #c2baba;
     --white-clouds: #ecf0f1;
     --gray-dark: rgb(230, 225, 225);
 }
@@ -258,15 +259,16 @@ button.btn-gray-light:hover {
     padding: 25px 0px 5px 25px;
 }
 
-.hebergment  {
+.hebergment {
     display: flex;
     flex-direction: column;
     width: 30%;
     background-color: white;
     border-radius: 15px 15px;
+    box-shadow: 0px 2px 10px var(--gray-light-box);
     background-color: white;
     padding: 4px 4px 4px 4px;
-   
+
 }
 
 .hebergment .hotelImg {
@@ -351,7 +353,7 @@ button.btn-gray-light:hover {
     background-color: white;
     border-radius: 15px;
     margin: 8px;
-    box-shadow: -0px 6px 5px var(--gray-light);
+    box-shadow: 0px 2px 10px var(--gray-light-box);
 }
 
 
@@ -401,64 +403,77 @@ button.btn-gray-light:hover {
 ******************/
 
 
-/* .article.activitiesList {
-    
-
-}
- .ActivTitle {
+.activTitle {
     font-size: 22px;
     color: black;
-     margin: 60px;
-    margin-left: 10px;
-} 
+    margin-bottom: 20px;
+    margin-top: 40px;
+
+
+}
 
 .activit {
     font-size: 20px;
     color: black;
 }
 
-h3.activit  {
-padding-left: 15px;
+h3.activit {
+    padding-left: 10px;
+    font-size: 15px;
 }
 
 .activitiesList {
     display: flex;
     justify-content: space-between;
-    height: 600px;
-    gap: 20px;
+    height: 370px;
+   
+    gap: 10px;
 }
 
-.column.double figcaption {
-    margin-bottom: 20px;
-}
-.activImg1 {
-    width:  calc(100% / 4);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    border-radius: 15px;
-    font-size: 20px;  
-} 
-
-
-
- .activitiesList figure figcaption  img {
+.activitiesList img {
     width: 100%;
-    height: calc(100% - 40px);
+    height: calc(100% - 25px);
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
 
-.activitiesList figure figcaption {
+
+/********************************/
+/*      1 image verticale  */
+/********************************/
+
+.activImg {
+    width: calc(100% / 4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.oneImg {
     height: 100%;
     border-radius: 15px;
 }
 
-.activitiesList figure.column.double figcaption {
-    height: calc(100% / 2 - 10px );
+/***********************************
+         2 IMAGES  DOUBLE       
+***********************************/
+.columnDouble {
+    box-shadow: 0px 2px 3px var(--gray-light-box);
 }
 
- 
+.activitiesList .columnDouble {
+    height: calc(100% / 2 - 10px);
+}
+
+/**********************************/
+
+.oneImg {
+    box-shadow: 0px 2px 3px var(--gray-light-box);
+}
+
+
 /*****************
     FOOTER      
 ******************/

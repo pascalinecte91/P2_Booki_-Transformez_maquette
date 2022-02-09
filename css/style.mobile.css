@@ -141,18 +141,11 @@ button.btn-gray-light i {
     margin: 0px;
     gap: 0px;
     background-color: transparent;
-    
-}
 
-.hebergment a {
-    width: 100%;
-    box-shadow: -0px 6px 5px var(--gray-light);
-    border-radius: 20px 20px 20px 20px;
 }
 
 .hebergment .title {
     font-size: 24px;
-
 }
 
 .hebergment .hotelImg {
@@ -166,7 +159,7 @@ button.btn-gray-light i {
 .hebergment {
     flex-wrap: wrap;
     width: 100%;
-    box-shadow: 6px 7px 4px var(--gray-light);
+    box-shadow: 0px 2px 10px var(--gray-light-box);
     margin: 10px 0px 5px 10px;
     height: auto;
 }
@@ -256,9 +249,31 @@ h3.popularName {
 .popular h2.title {
     padding: 30px 15px 20px 20px;
 }
+
 .popular h2.title i {
     font-size: 25px;
 }
+
+
+/*****************
+    ACTIVITES     
+******************/
+.activTitle {
+    padding-left: 20px;
+}
+
+.activitiesList {
+    flex-direction: column;
+    padding: 20px;
+}
+
+.activImg {
+    width: 100%;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+
 
 /*****************
     FOOTER      
