@@ -401,40 +401,36 @@ button.btn-gray-light:hover {
 /*****************
     Activities      
 ******************/
-
+.activitiesList {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    gap: 30px;
+}
 
 .activTitle {
     font-size: 22px;
     color: black;
     margin-bottom: 20px;
     margin-top: 40px;
-
-
 }
 
-.activit {
-    font-size: 20px;
-    color: black;
+ h3.activit {
+    padding-left: 8px;
+    padding-top: 8px;
+    font-size: 14px;
+    color: black;  
 }
 
-h3.activit {
-    padding-left: 10px;
-    font-size: 15px;
-}
-
-.activitiesList {
-    display: flex;
-    justify-content: space-between;
-    height: 370px;
-   
-    gap: 10px;
-}
-
+/*  toutes les images de la section */
 .activitiesList img {
     width: 100%;
-    height: calc(100% - 25px);
+    height: calc(100% - 30px);
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
+    
+    
+
 }
 
 
@@ -442,36 +438,40 @@ h3.activit {
 /*      1 image verticale  */
 /********************************/
 
-.activImg {
+ .activitOnePicture.activImg,
+ .activitTwoPictures.columnDouble {
     width: calc(100% / 4);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border-radius: 15px;
     font-size: 20px;
-}
-
+    border-radius: 15px 15px 0px 0px;
+} 
 .oneImg {
     height: 100%;
-    border-radius: 15px;
+    box-shadow: 0px 7px 17px var(--gray-light-box);
+    padding-bottom: 25px;
+    border-radius: 15px 15px 0px 0px;
+    
 }
+
 
 /***********************************
          2 IMAGES  DOUBLE       
 ***********************************/
-.columnDouble {
-    box-shadow: 0px 2px 3px var(--gray-light-box);
+
+
+.twoImg {
+    height: calc(100% / 2);
+    padding-bottom: 15px;
+    box-shadow: 0px 7px 17px var(--gray-light-box);
+    margin-bottom: 20px;
+    border-radius: 15px 15px 0px 0px;
 }
 
-.activitiesList .columnDouble {
-    height: calc(100% / 2 - 10px);
-}
 
 /**********************************/
 
-.oneImg {
-    box-shadow: 0px 2px 3px var(--gray-light-box);
-}
 
 
 /*****************
