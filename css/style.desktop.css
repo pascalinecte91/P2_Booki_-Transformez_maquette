@@ -14,4 +14,24 @@
        HEBERGEMENTS 
 ********************/
 
+/**************************
+    SECTION activitiesList    
+***************************/
+.activitiesList {
+    height: 300px;
+    gap: 20px;
+} 
 
+
+.activitTwoPictures,
+.fort,
+.longChamp {
+    margin-bottom: 35px;
+}
+
+.activitTwoPictures,
+.notreDame,
+.frioul {
+    margin-bottom: 35px;
+   
+}

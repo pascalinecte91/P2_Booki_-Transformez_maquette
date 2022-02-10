@@ -119,7 +119,25 @@ figcaption p {
     ACTIVITES     
 ******************/
 
-
 .activitiesList {
-    height: 350px;
+    height: 250px;
+    gap: 20px;
+} 
+
+
+.activitTwoPictures,
+.fort,
+.longChamp {
+  
+    margin-bottom: 35px;
+}
+
+.activitTwoPictures,
+.notreDame,
+.frioul {
+    margin-bottom: 35px;
+   
+}
+
+
    
