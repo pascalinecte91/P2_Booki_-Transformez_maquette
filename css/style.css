@@ -313,6 +313,8 @@ button.btn-gray-light:hover {
 .plusInfo {
     width: 100%;
     padding-left: 25px;
+    padding-bottom: 30px;
+    padding-top: 20px;
 }
 
 /*****************
@@ -404,10 +406,11 @@ button.btn-gray-light:hover {
 .activitiesList {
     display: flex;
     justify-content: space-between;
-    height: 400px;
-    gap: 30px;
+    height: 500px;
+    gap: 40px;
 }
 
+/* titre section activite*/
 .activTitle {
     font-size: 22px;
     color: black;
@@ -415,8 +418,10 @@ button.btn-gray-light:hover {
     margin-top: 40px;
 }
 
+/* legende activites */
+
  h3.activit {
-    padding-left: 8px;
+    padding-left: 10px;
     padding-top: 8px;
     font-size: 14px;
     color: black;  
@@ -427,17 +432,13 @@ button.btn-gray-light:hover {
     width: 100%;
     height: calc(100% - 30px);
     object-fit: cover;
-    border-radius: 15px 15px 0px 0px;
-    
-    
-
+    border-radius: 15px 15px 0px 0px;  
 }
 
 
 /********************************/
 /*      1 image verticale  */
 /********************************/
-
  .activitOnePicture.activImg,
  .activitTwoPictures.columnDouble {
     width: calc(100% / 4);
@@ -447,12 +448,15 @@ button.btn-gray-light:hover {
     font-size: 20px;
     border-radius: 15px 15px 0px 0px;
 } 
+
+/* card 1 image*/
 .oneImg {
-    height: 100%;
+    height: 95%;
+    width: 100%;
     box-shadow: 0px 7px 17px var(--gray-light-box);
-    padding-bottom: 25px;
-    border-radius: 15px 15px 0px 0px;
-    
+    padding-bottom: 15px;
+    border-radius: 15px 15px 15px 15px; 
+  
 }
 
 
@@ -461,12 +465,32 @@ button.btn-gray-light:hover {
 ***********************************/
 
 
-.twoImg {
+.columnDouble {
     height: calc(100% / 2);
     padding-bottom: 15px;
     box-shadow: 0px 7px 17px var(--gray-light-box);
     margin-bottom: 20px;
     border-radius: 15px 15px 0px 0px;
+}
+
+.twoImg2 img figcaption{
+    padding-bottom: 20px;
+    margin-bottom: 5%;
+    height: 40%;
+}
+
+.twoImg2 {
+    box-shadow: 0px 7px 17px var(--gray-light-box);
+    padding-bottom: 15px;
+    border-radius: 15px 15px 15px 15px;  
+    margin-bottom: 20px;  
+}
+
+.twoImg1  {
+    box-shadow: 0px 7px 17px var(--gray-light-box);
+    padding-bottom: 15px;
+    border-radius: 15px 15px 15px 15px; 
+     
 }
 
 
