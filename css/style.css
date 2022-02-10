@@ -90,9 +90,9 @@ header {
 
 }
 
-/********************
-      SEARCH
-*********************/
+/*************************
+      SECTION  search
+**************************/
 
 
 .fa-map-marker-alt {
@@ -150,9 +150,9 @@ header {
     font-size: 18px;
 }
 
-/*******************
-       FILTERS  
-********************/
+/*************************
+       SECTION  filters
+**************************/
 
 .filters {
     display: flex;
@@ -228,16 +228,16 @@ button.btn-gray-light:hover {
 }
 
 /*******************
-    General  section      
+    General      
 ********************/
 
 .hebergPopular {
     display: flex;
 }
 
-/*****************
-    HEBERGEMENTS    
-******************/
+/***************************
+    SECTION hebergements   
+****************************/
 .hebergements {
     display: flex;
     flex-wrap: wrap;
@@ -302,7 +302,7 @@ button.btn-gray-light:hover {
 }
 
 
-/*****************/
+/**********************/
 
 .plusInfo a {
     color: black;
@@ -317,9 +317,9 @@ button.btn-gray-light:hover {
     padding-top: 20px;
 }
 
-/*****************
-      POPULAR    
-******************/
+/***********************
+      SECTION popular   
+************************/
 
 .popular {
     background-color: var(--gray-light);
@@ -400,13 +400,12 @@ button.btn-gray-light:hover {
     color: black;
 }
 
-/*****************
-    Activities      
-******************/
+/****************************
+      SECTION activitiesList     
+*****************************/
 .activitiesList {
     display: flex;
     justify-content: space-between;
-    height: 500px;
     gap: 40px;
 }
 
@@ -420,11 +419,11 @@ button.btn-gray-light:hover {
 
 /* legende activites */
 
- h3.activit {
+h3.activit {
     padding-left: 10px;
     padding-top: 8px;
     font-size: 14px;
-    color: black;  
+    color: black;
 }
 
 /*  toutes les images de la section */
@@ -432,70 +431,54 @@ button.btn-gray-light:hover {
     width: 100%;
     height: calc(100% - 30px);
     object-fit: cover;
-    border-radius: 15px 15px 0px 0px;  
+    border-radius: 15px 15px 0px 0px;
 }
-
 
 /********************************/
 /*      1 image verticale  */
 /********************************/
- .activitOnePicture.activImg,
- .activitTwoPictures.columnDouble {
-    width: calc(100% / 4);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    font-size: 20px;
-    border-radius: 15px 15px 0px 0px;
-} 
-
-/* card 1 image*/
-.oneImg {
-    height: 95%;
+/* card COL 1 image*/
+.activitOnePicture,
+.vieuxPort .calanques {
+    height: 400px;
     width: 100%;
     box-shadow: 0px 7px 17px var(--gray-light-box);
     padding-bottom: 15px;
-    border-radius: 15px 15px 15px 15px; 
-  
+    border-radius: 15px 15px 15px 15px;
 }
 
-
-/***********************************
-         2 IMAGES  DOUBLE       
-***********************************/
-
-
-.columnDouble {
-    height: calc(100% / 2);
-    padding-bottom: 15px;
-    box-shadow: 0px 7px 17px var(--gray-light-box);
-    margin-bottom: 20px;
-    border-radius: 15px 15px 0px 0px;
+.activitOnePicture img {
+    height: 350px;
 }
 
-.twoImg2 img figcaption{
-    padding-bottom: 20px;
-    margin-bottom: 5%;
-    height: 40%;
-}
-
-.twoImg2 {
+.activitTwoPictures,
+.fort,
+.longChamp {
+    height: 210px;
+    width: 100%;
     box-shadow: 0px 7px 17px var(--gray-light-box);
     padding-bottom: 15px;
-    border-radius: 15px 15px 15px 15px;  
-    margin-bottom: 20px;  
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 45px;
 }
+ 
 
-.twoImg1  {
+.activitTwoPictures,
+.notreDame,
+.frioul {
+
+    height: 155px;
+    width: 100%;
     box-shadow: 0px 7px 17px var(--gray-light-box);
     padding-bottom: 15px;
-    border-radius: 15px 15px 15px 15px; 
-     
+    margin-bottom: 40px;
+    border-radius: 15px 15px 15px 15px;
 }
 
+.activitTwoPictures .frioul .notreDame img {
+    height: 200px;
 
-/**********************************/
-
+}
 
 
 /*****************
