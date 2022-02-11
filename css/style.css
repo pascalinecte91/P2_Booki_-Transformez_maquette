@@ -31,6 +31,8 @@
 
 main {
     padding: 0px 40px;
+    margin-bottom: 80px;
+    
 }
 
 h1 {
@@ -466,7 +468,6 @@ h3.activit {
 .activitTwoPictures,
 .notreDame,
 .frioul {
-
     height: 155px;
     width: 100%;
     box-shadow: 0px 7px 17px var(--gray-light-box);
@@ -484,30 +485,28 @@ h3.activit {
 /*****************
     FOOTER      
 ******************/
-/*
-.containerFooter {
-    height: 50px;
+
+/* .containerFooter {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
+    background: var(--gray-light);
+    height: 200px;
+    margin-top: 20px;
+    
 }
 
-.containerElem1,
-.containerElem2,
-.containerElem3 {
+.containerFooter {
     padding: 10px;
     font-weight: 400;
-    font-size: 18px;
-    background: var(--gray-light);
+    font-size: 14px;
+}
+.containerFooter {
+    padding-left: 40px;
+    line-height: 35px;
 }
 
-.containerFooter,
-h4,
-li {
-    padding: 20px 10px 10px 15px;
-}
-
-.containerFooter,
-h4 {
-    margin-bottom: 15px;
+.containerFooter h4 {
+    padding-bottom: 20px;
+    font-size: 17px;
 } */

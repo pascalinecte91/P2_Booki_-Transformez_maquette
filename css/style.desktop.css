@@ -17,10 +17,6 @@
 /**************************
     SECTION activitiesList    
 ***************************/
-.activitiesList {
-    height: 300px;
-    gap: 20px;
-} 
 
 
 .activitTwoPictures,
@@ -35,3 +31,9 @@
     margin-bottom: 35px;
    
 }
+
+
+/******************
+        FOOTER
+******************/
+
