@@ -27,12 +27,12 @@
 :root {
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
+    background-color: red;
+    
 }
 
 main {
     padding: 0px 40px;
-    margin-bottom: 80px;
-    
 }
 
 h1 {
@@ -59,6 +59,7 @@ h4 {
 /********************
       HEADER   
 *********************/
+
 
 header {
     display: flex;
@@ -109,6 +110,9 @@ header {
     background-color: var(--gray-light);
     padding: 20px;
     height: 51px;
+}
+#search  {
+height: 51px;
 }
 
 .search h1 {
@@ -191,8 +195,8 @@ button.btn-gray-light i {
     color: var(--blue);
     margin-right: 10px;
     border-radius: 55px;
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -440,9 +444,9 @@ h3.activit {
 /*      1 image verticale  */
 /********************************/
 /* card COL 1 image*/
-.activitOnePicture,
-.vieuxPort .calanques {
-    height: 400px;
+.activitOnePicture
+ {
+    height: 80%;
     width: 100%;
     box-shadow: 0px 7px 17px var(--gray-light-box);
     padding-bottom: 15px;
@@ -453,21 +457,20 @@ h3.activit {
     height: 350px;
 }
 
-.activitTwoPictures,
+
 .fort,
 .longChamp {
     height: 210px;
     width: 100%;
-    box-shadow: 0px 7px 17px var(--gray-light-box);
     padding-bottom: 15px;
     border-radius: 15px 15px 15px 15px;
     margin-bottom: 45px;
+    box-shadow: 0px 7px 17px var(--gray-light-box);
 }
  
-
-.activitTwoPictures,
 .notreDame,
 .frioul {
+
     height: 155px;
     width: 100%;
     box-shadow: 0px 7px 17px var(--gray-light-box);
@@ -486,27 +489,21 @@ h3.activit {
     FOOTER      
 ******************/
 
-/* .containerFooter {
+.containerFooter {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    background: var(--gray-light);
-    height: 200px;
-    margin-top: 20px;
-    
+    background: var(--gray-light);   
 }
 
 .containerFooter {
-    padding: 10px;
-    font-weight: 400;
-    font-size: 14px;
-}
-.containerFooter {
-    padding-left: 40px;
+    padding: 0px 0px 0px 40px;
     line-height: 35px;
+    font-size: 14px;
 }
 
 .containerFooter h4 {
-    padding-bottom: 20px;
+    padding: 20px 0px 10px 0px;
     font-size: 17px;
-} */
+}
+ 
