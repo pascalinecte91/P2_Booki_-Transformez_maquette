@@ -32,9 +32,9 @@
 #trois {
     display: none;
 }
+
 .hebergements {
-    padding-top: 10px;
-    
+    padding-top: 10px;  
 }
 
 .hebergements .title {
@@ -90,8 +90,8 @@ h2.title {
 ********************/
 .popular {
     gap: 30px ;
- 
 }
+
 .popularItem {
     height: 195px;
     flex-direction: column;
@@ -110,47 +110,42 @@ h2.title {
     height: 100px;
 }
 
-
 figcaption p {
     padding-bottom: 5px;
 }
-
-
 
 /*****************
     ACTIVITES     
 ******************/
 
-.activitiesList {
-    gap: 20px;
-} 
-
-
-.activitTwoPictures,
-.fort,
-.longChamp {
-    margin-bottom: 35px;
+.activityCards {
+    grid-template-rows: repeat(5, 70px);
+    gap: 15px;
 }
 
-.activitTwoPictures,
-.notreDame,
-.frioul {
-    margin-bottom: 35px;
-   
+.activitTitle,
+h3 {
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
+.activityPicture {
+    height:100% ;
+}
 
+.activitLegend {
+    display: none;
+}
 
 /****************
       FOOTER
 ****************/
 
- .containerFooter {
+.containerFooter {
     font-size: 12px;
-    line-height: 25px;
-    
+    line-height: 25px;   
 }
 .containerFooter h4 {
     font-size: 14px;
 } 
-   

@@ -51,7 +51,6 @@ header {
     SEARCH   
 ******************/
 
-
 .search {
     padding: 0px 30px;
 }
@@ -109,7 +108,6 @@ button.btn-gray-light i {
     margin: -2px 7px 0px -6px;
 }
 
-
 .filtersBtn .btn-gray-light {
     font-size: 19px;
     font-weight: 600;
@@ -141,7 +139,6 @@ button.btn-gray-light i {
     margin: 0px;
     gap: 0px;
     background-color: transparent;
-
 }
 
 .hebergment .title {
@@ -182,7 +179,6 @@ img .hotelImg {
     padding: 7px 5px 0px 15px;
 }
 
-
 /******************/
 
 .plusInfo {
@@ -191,7 +187,6 @@ img .hotelImg {
     padding-left: 20px;
     font-size: 18px;
     font-weight: 900;
-
 }
 
 /*****************
@@ -260,52 +255,12 @@ h3.popularName {
 ******************/
 
 
-.activitiesList {
-    flex-direction: column;
-    margin: 10px 5px 5px 5px;
-}
-
-.activTitle {
-    font-size: 22px;
-    color: black;
-    padding-left: 25px;
-    margin-top: 40px;
-}
-
-.activitOnePicture img {
-    height: 150px;
-}
-
-article.activitOnePicture
- {
-    height: 200px;
-}
-
-.activitTwoPictures
- {
-    height: inherit;
-    width: 100%;
-}
-
-.activitTwoPictures 
- img {
-    height: 150px;
-
-}
-
-.activitiesList {
-margin: 20px;
-}
-
-
-
 /*****************
     FOOTER      
 ******************/
- .containerFooter {
-   
+.containerFooter {
     display: grid;
-    grid-template-columns: 1fr  ;
+    grid-template-columns: 1fr;
     padding: 0px 20px 0px 20px;
-    line-height: 30px;  
-} 
+    line-height: 30px;
+}
