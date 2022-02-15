@@ -18,6 +18,8 @@
     --gray-light-box: #c2baba;
     --white-clouds: #ecf0f1;
     --gray-dark: rgb(230, 225, 225);
+    --title-section: 20px;
+    --title-section-mobile: 24px;
 }
 
 /**************
@@ -253,14 +255,14 @@ button.btn-gray-light:hover {
 }
 
 .hebergements .title {
-    font-size: 22px;
+    font-size: var(--title-section);
     color: black;
     display: inline;
     width: 100%;
     flex-wrap: nowrap;
     justify-content: flex-start;
     background-color: transparent;
-    padding: 25px 0px 5px 25px;
+    padding: 25px 0px 5px 20px;
 }
 
 .hebergment {
@@ -290,7 +292,7 @@ button.btn-gray-light:hover {
 
 .hebergment figcaption {
     line-height: 20px;
-    padding: 5px 5px 10px 12px;
+    padding: 5px 5px 0px 12px;
 }
 
 .nameHotel,
@@ -331,12 +333,11 @@ button.btn-gray-light:hover {
     display: flex;
     flex-direction: column;
     border-radius: 15px;
-    padding: 0px 7px 7px 7px;
     margin: 0px 0px 0px 20px;
 }
 
 .popular .title {
-    font-size: 22px;
+    font-size: var(--title-section);
     color: black;
     display: flex;
     justify-content: space-between;
@@ -358,6 +359,7 @@ button.btn-gray-light:hover {
     border-radius: 15px;
     margin: 8px;
     box-shadow: 0px 2px 10px var(--gray-light-box);
+    height: 120px;
 }
 
 .popularContent {
@@ -455,9 +457,8 @@ button.btn-gray-light:hover {
     object-fit: cover;
 }
 
-.activitTitle,
-h3 {
-    font-size: 18px;
+.activitTitle {
+    font-size: var(--title-section);
     color: black;
     padding-top: 50px;
     padding-bottom: 10px;
@@ -473,6 +474,11 @@ h3 {
     display: flex;
     align-items: center;
     padding-left: 15px;
+    color:black;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 17px;
+    padding-top: 10px;
 }
 
 /*****************
@@ -494,5 +500,5 @@ h3 {
 
 .containerFooter h4 {
     padding: 20px 0px 10px 0px;
-    font-size: 17px;
+    font-size: 20px;
 }

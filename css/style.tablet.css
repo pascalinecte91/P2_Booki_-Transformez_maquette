@@ -1,3 +1,6 @@
+main { 
+    margin-bottom: 50px;
+}
 /*****************
       Search
 *******************/
@@ -117,34 +120,39 @@ figcaption p {
 /*****************
     ACTIVITES     
 ******************/
-
-.activityCards {
-    grid-template-rows: repeat(5, 70px);
-    gap: 15px;
-}
-
-.activitTitle,
-h3 {
-    font-size: 15px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-}
-
-.activityPicture {
-    height:100% ;
-}
-
-.activitLegend {
+ .activityCards {
+    display: grid;
+    grid-template-columns: minmax(min-content, auto);
+    grid-template-rows:minmax(max-content, auto);
+    grid-template-areas:
+        "  Two Four Five"
+        "  Two Four Five"
+        "  Two Four Six"
+        "  Three Four Six"
+        "  Three Four Six";
+} 
+.cardOne {
     display: none;
 }
 
+
+.activitTitle 
+ {
+    font-size: 18px;
+    color: black;
+    padding: 25px 0px 25px 0px;
+}
+
+.activitLegend {
+    padding: 10px 0px 0px 5px;
+    font-size: 14px;
+}
 /****************
       FOOTER
 ****************/
 
 .containerFooter {
-    font-size: 12px;
-    line-height: 25px;   
+    line-height: 25px;  
 }
 .containerFooter h4 {
     font-size: 14px;
