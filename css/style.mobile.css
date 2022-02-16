@@ -272,6 +272,11 @@ h3.popularName {
     width: 100%;   
 }
 
+.ratio {
+    object-position: 50% 30%;
+    object-position: center top;
+}
+
 .activitLegend {
     padding-top: inherit;
     justify-content: start;
