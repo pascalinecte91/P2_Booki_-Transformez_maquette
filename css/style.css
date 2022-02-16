@@ -25,9 +25,12 @@
 /**************
     Generals     
 ***************/
+
+
 :root {
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
+    
 }
 
 main {
@@ -113,6 +116,7 @@ header {
 
 #search {
     height: 51px;
+    font-weight: 800;
 }
 
 .search h1 {
@@ -140,9 +144,6 @@ header {
     border: none;
 }
 
-#search {
-    font-weight: 800;
-}
 
 .searchForm button {
     border: none;
@@ -193,7 +194,7 @@ header {
 button.btn-gray-light i {
     background-color: var(--blue-light);
     color: var(--blue);
-    margin-right: 10px;
+    margin: 0px 10px 0px -1px;
     border-radius: 55px;
     width: 40px;
     height: 35px;

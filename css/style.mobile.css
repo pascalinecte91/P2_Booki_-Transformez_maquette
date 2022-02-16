@@ -57,6 +57,7 @@ header {
 
 .search h1 {
     font-size: 25px;
+    padding-top: 30px;
 }
 
 .search input {
@@ -65,6 +66,9 @@ header {
     height: 51px;
 }
 
+#search {
+    max-width: 230px;
+}
 .search p {
     font-size: 17px;
     font-weight: 500;
@@ -78,7 +82,7 @@ header {
 
 .searchForm button {
     border-radius: 15px;
-    width: 60px;
+    width: 66px;
     margin: -1px 0 3px -10px;
     height: 53px;
 }
@@ -105,7 +109,7 @@ button.btn-gray-light i {
     margin-top: 10px;
     width: 55px;
     height: 53px;
-    margin: -2px 7px 0px -6px;
+    margin: -2px 7px -2px -6px;
 }
 
 .filtersBtn .btn-gray-light {
@@ -141,14 +145,14 @@ button.btn-gray-light i {
     background-color: transparent;
 }
 
-.hebergment .title {
+.hebergements .title {
     font-size: var(--title-section-mobile);
+    padding: 25px 0px 15px 20px;
 }
 
 .hebergment .hotelImg {
     height: 130px;
     object-fit: cover;
-    padding: 3px;
     width: 100%;
 }
 
