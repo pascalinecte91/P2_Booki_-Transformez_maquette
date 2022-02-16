@@ -134,7 +134,7 @@ button.btn-gray-light i {
 
 .hebergements {
     flex-direction: column;
-    padding: 0px 10px 0px 5px;
+    padding: 0px 10px 0px 10px;
     width: 100%;
     margin: 0px;
     gap: inherit;
@@ -196,8 +196,8 @@ button.btn-gray-light i {
 .popular {
     width: 100%;
     border-radius: 0px;
-    margin: 0px;
-    padding-bottom: 40px;
+    margin: inherit;
+    padding: 0px 10px 40px 10px;
 }
 
 .popularImg {
@@ -251,9 +251,7 @@ h3.popularName {
     ACTIVITES     
 ******************/
 .activites {
-    padding: 0px 10px 0px 5px;
-  
-     
+    padding: 0px 10px 0px 10px;  
       }
 
 
@@ -265,13 +263,22 @@ h3.popularName {
     display: inline-flex;
     flex-flow: column;
     margin-bottom: 5px;
-    grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax( 1fr));
 
 }
 
+.activityPicture img{  
+    aspect-ratio: 3/1;
+    width: 100%;   
+}
 
 .activitLegend {
     padding-top: inherit;
+    justify-content: start;
+    padding-bottom: 5px;
+    height: 45px;
+    font-size: 15px;
+   
 }
 /*****************
     FOOTER      
@@ -281,4 +288,5 @@ h3.popularName {
     grid-template-columns: 1fr;
     padding: 20px 0px 0px 20px;
     line-height: 30px;
+    margin-top: 50px;
 }
