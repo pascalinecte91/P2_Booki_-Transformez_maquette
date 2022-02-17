@@ -30,12 +30,12 @@
 :root {
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
-    
+
 }
 
 main {
     padding: 0px 40px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 h1 {
@@ -48,14 +48,11 @@ h2 {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 ul {
     list-style: none;
-}
-
-h4 {
-    font-size: 20px;
 }
 
 
@@ -114,15 +111,6 @@ header {
     height: 51px;
 }
 
-#search {
-    height: 51px;
-    font-weight: 800;
-}
-
-.search h1 {
-    font-size: 20px;
-}
-
 .search p {
     padding-top: 10px;
     font-size: 15px;
@@ -144,10 +132,9 @@ header {
     border: none;
 }
 
-
 .searchForm button {
     border: none;
-    border-radius: 0 10px 10px 0px;
+    border-radius: 0 13px 13px 0px;
     background-color: var(--blue);
     color: white;
     height: 52px;
@@ -155,6 +142,10 @@ header {
     font-weight: 800;
     cursor: pointer;
     font-size: 18px;
+}
+
+::placeholder {
+    color: black
 }
 
 /*************************
@@ -189,6 +180,7 @@ header {
     height: 35px;
     padding-right: 10px;
     margin: 10px 10px 10px 0px;
+    
 }
 
 button.btn-gray-light i {
@@ -206,6 +198,7 @@ button.btn-gray-light i {
 button.btn-gray-light:hover {
     background-color: var(--blue-light);
     color: black;
+    
 }
 
 /*****************
@@ -273,11 +266,16 @@ button.btn-gray-light:hover {
     background-color: white;
     border-radius: 15px 15px;
     box-shadow: 0px 2px 10px var(--gray-light-box);
-    background-color: white;
-    padding: 4px 4px 4px 4px;
+    padding: 1px 1px 1px 1px;
+    border: 2px solid transparent;
 }
 
-.hebergment .hotelImg {
+a:hover.hebergment {
+    border: 2px solid var(--blue);
+   
+}
+
+.hebergment img {
     border-radius: 15px 15px 0px 0px;
     width: 100%;
     height: 92px;
@@ -294,17 +292,13 @@ button.btn-gray-light:hover {
 .hebergment figcaption {
     line-height: 20px;
     padding: 5px 5px 0px 12px;
+
 }
 
-.nameHotel,
-.price {
+.hebergment h2,
+p {
     font-size: 14px;
     color: black;
-}
-
-.hotelImg i {
-    display: flex;
-    align-items: flex-end;
 }
 
 
@@ -339,7 +333,6 @@ button.btn-gray-light:hover {
 
 .popular .title {
     font-size: var(--title-section);
-    color: black;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -361,18 +354,26 @@ button.btn-gray-light:hover {
     margin: 8px;
     box-shadow: 0px 2px 10px var(--gray-light-box);
     height: 120px;
+    border: 2px solid transparent;
+   
+}
+
+a:hover .popularItem {
+    border: 2px solid var(--blue);
+
 }
 
 .popularContent {
     padding-left: 15px;
 }
 
-.popularImg {
-    padding: 6px 6px 6px 6px;
+.popularItem img {
+    padding: 1px 1px 1px 1px;
     object-fit: cover;
     width: 30%;
     max-height: 300px;
     border-radius: 15px 0px 0px 15px;
+    
 }
 
 .popularName {
@@ -386,13 +387,12 @@ button.btn-gray-light:hover {
 }
 
 .popularItem figcaption {
-    padding-top: 10px;
     flex-wrap: wrap;
     line-height: 18px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-bottom: 8px;
+    padding: 10px 0px 8px 8px;
 }
 
 .popular,
@@ -417,6 +417,7 @@ button.btn-gray-light:hover {
         "One Two Four Six"
         "One Three Four Six"
         "One Three Four Six";
+      
 }
 
 .activityCard {
@@ -425,6 +426,12 @@ button.btn-gray-light:hover {
     background-color: white;
     border-radius: 25px;
     box-shadow: 0px 2px 10px var(--gray-light-box);
+    border: 1px solid transparent;   
+}
+
+a:hover.activityCard {
+    border: 1px solid var(--blue);
+  
 }
 
 .cardOne {
@@ -475,7 +482,7 @@ button.btn-gray-light:hover {
     display: flex;
     align-items: center;
     padding-left: 15px;
-    color:black;
+    color: black;
     font-family: Raleway;
     font-weight: bold;
     font-size: 17px;
@@ -499,7 +506,8 @@ button.btn-gray-light:hover {
     font-size: 14px;
 }
 
-.containerFooter h4 {
-    padding: 20px 0px 10px 0px;
-    font-size: 20px;
+.containerFooter {
+    margin-top: 20px;
+    padding: 20px 0px 10px 40px;
+
 }
