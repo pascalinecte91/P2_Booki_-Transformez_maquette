@@ -43,7 +43,7 @@ des liens. Ils doivent mener respectivement vers la section
 Spécifications techniques
 
 * Deux maquettes ont été réalisées : l’une desktop et l’autre mobile.
-![phone](/images/iPhone 8 .png)
+![phone](https://github.com/pascalinecte91/P2_Booki_-Transformez_maquette/tree/master/images/Desktop.png)
 
  Le site devra être également adapté aux formats tablette. Pour les
 tablettes, nous sommes libres de faire les adaptations nécessaires. Il
