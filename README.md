@@ -92,3 +92,11 @@ ces deux navigateurs.
 
 * Il n’est pas nécessaire de versionner le code.
 ```
+
+
+![phone](./images/Desktop.png)
+
+![phone1](https://github.com/pascalinecte91/P2_Booki_-Transformez_maquette/tree/master./images/Desktop.png)
+
+![phone](images/Desktop.png)
+
