@@ -154,6 +154,9 @@ button.btn-gray-light i {
     object-fit: cover;
 }
 
+.hebergment img {
+    height: 130px;
+}
 
 .hebergment h2, p {
     font-size: 18px;
@@ -173,7 +176,7 @@ button.btn-gray-light i {
 .plusInfo {
     display: flex;
     padding-top: 20px;
-    padding-left: 20px;
+    padding-left: 5px;
     font-size: 18px;
     font-weight: 900;
 }
@@ -250,6 +253,7 @@ h3.popularName {
 
 .activitTitle {
     font-size: var(--title-section-mobile);
+    padding-top: 35px;
 }
 
 .activityCards {
@@ -282,9 +286,13 @@ h3.popularName {
     FOOTER      
 ******************/
 .containerFooter {
-    display: grid;
     grid-template-columns: 1fr;
     padding: 20px 0px 0px 20px;
     line-height: 30px;
     margin-top: 50px;
+}
+
+div ul:nth-child(2){
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
