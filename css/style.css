@@ -342,7 +342,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 25px 10px 5px 10px;
+    padding: 25px 10px 5px 18px;
 }
 
 .popular .title i {
@@ -357,7 +357,7 @@ p {
     gap: 1px 5px;
     background-color: white;
     border-radius: 15px;
-    margin: 8px;
+    margin: 15px;
     box-shadow: 0px 2px 10px var(--gray-light-box);
     height: 120px;
     border: 2px solid transparent;
@@ -369,6 +369,10 @@ a:hover .popularItem {
     transform: scale(1.05);
     transition: 0.5s;
 
+}
+
+.popular a {
+    margin-top: -10px;
 }
 
 .popularContent {

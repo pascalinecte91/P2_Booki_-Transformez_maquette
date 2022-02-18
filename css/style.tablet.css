@@ -37,12 +37,8 @@ main {
     display: none;
 }
 
-.hebergements {
-    padding-top: 10px;  
-}
-
 .hebergements .title {
-    padding: 15px 0px 0px 25px;
+    padding: 24px 0px 0px 10px;
     font-size: 17px;
     color: black;
 }
@@ -83,12 +79,12 @@ h2.title {
 /*******************
        POPULAR 
 ********************/
-.popular {
-    gap: 30px ;
+.popular .title {
+    padding-left: 17px;
 }
 
 .popularItem {
-    height: 195px;
+    height: 225px;
     flex-direction: column;
     align-items: flex-start;
 }
