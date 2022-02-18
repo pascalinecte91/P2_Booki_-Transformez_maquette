@@ -264,7 +264,7 @@ button.btn-gray-light:hover {
     flex-direction: column;
     width: 30%;
     background-color: white;
-    border-radius: 15px 15px;
+    border-radius: 16px 16px;
     box-shadow: 0px 2px 10px var(--gray-light-box);
     padding: 1px 1px 1px 1px;
     border: 2px solid transparent;
@@ -279,7 +279,7 @@ a:hover.hebergment {
 }
 
 .hebergment img {
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 16px 16px 0px 0px;
     width: 100%;
     height: 92px;
     object-fit: cover;
@@ -333,7 +333,7 @@ p {
     width: 40%;
     display: flex;
     flex-direction: column;
-    border-radius: 15px;
+
     margin: 0px 0px 0px 20px;
 }
 
@@ -342,7 +342,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 25px 10px 5px 18px;
+    padding: 25px 10px 5px 22px;
 }
 
 .popular .title i {
@@ -356,8 +356,8 @@ p {
     justify-content: flex-start;
     gap: 1px 5px;
     background-color: white;
-    border-radius: 15px;
-    margin: 15px;
+    border-radius: 16px;
+    margin: 15px 20px;
     box-shadow: 0px 2px 10px var(--gray-light-box);
     height: 120px;
     border: 2px solid transparent;
@@ -384,7 +384,7 @@ a:hover .popularItem {
     object-fit: cover;
     width: 30%;
     max-height: 300px;
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 16px 0px 0px 16px;
     
 }
 
@@ -436,7 +436,7 @@ a:hover .popularItem {
     display: flex;
     flex-direction: column;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 16px;
     box-shadow: 0px 2px 10px var(--gray-light-box);
     border: 1px solid transparent;  
 }
@@ -475,7 +475,7 @@ a:hover.activityCard {
 .activityPicture img {
     height: 100%;
     width: 100%;
-    border-radius: 25px 25px 0px 0px;
+    border-radius: 16px 16px 0px 0px;
     object-fit: cover;
 }
 

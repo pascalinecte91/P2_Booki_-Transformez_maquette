@@ -191,14 +191,13 @@ button.btn-gray-light i {
 
 .popular {
     width: 100%;
-    border-radius: 0px;
     margin: inherit;
     padding: 0px 10px 40px 10px;
 }
 
 .popularItem img {
     width: 40%;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 16px 0px 0px 16px;
 }
 
 .popular a {
