@@ -21,7 +21,7 @@ compte pour le développement du nouveau site Booki. L’ensemble de ces
 respecter.
 Spécifications fonctionnelles
 
-```
+
 * Les usagers pourront rechercher des hébergements dans la ville de
 leur choix. Le champ de recherche est un champ de saisie, le texte
 doit donc pouvoir être édité par l’utilisateur. Il faut englober ce
@@ -43,7 +43,7 @@ des liens. Ils doivent mener respectivement vers la section
 Spécifications techniques
 
 * Deux maquettes ont été réalisées : l’une desktop et l’autre mobile.
-![phone](/images/iPhone 8 .png)
+![phone](./images/Desktop.png)
 
  Le site devra être également adapté aux formats tablette. Pour les
 tablettes, nous sommes libres de faire les adaptations nécessaires. Il
@@ -91,4 +91,3 @@ Google Chrome et de Mozilla Firefox. Il faudra tester le prototype sur
 ces deux navigateurs.
 
 * Il n’est pas nécessaire de versionner le code.
-```

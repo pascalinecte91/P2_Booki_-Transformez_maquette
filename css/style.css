@@ -321,7 +321,7 @@ p {
 }
 
 .plusInfo a:hover {
-   background-color: var(--blue-light);
+    text-decoration: underline  var(--blue)
 }
 /***********************
       SECTION popular   
@@ -518,4 +518,9 @@ a:hover.activityCard {
 }
  div ul:nth-child(2){
      padding-top: 20px;
+ }
+
+ .containerFooter li:hover {
+    text-decoration: underline ;
+ 
  }
