@@ -277,6 +277,35 @@ a:hover .popularItem {
     aspect-ratio: 3/1;
     width: 100%;   
 }
+.cardOne {
+    grid-area: One;
+    height: inherit
+}
+
+.cardTwo {
+    grid-area: Two;
+    height: inherit
+}
+
+.cardThree {
+    grid-area: Three;
+    height: inherit
+}
+
+.cardFour {
+    grid-area: Four;
+    height: inherit
+}
+
+.cardFive {
+    grid-area: Five;
+    height: inherit 
+}
+
+.cardSix {
+    grid-area: Six;
+    height: inherit
+}
 
 .ratio {
     object-position: 50% 30%;

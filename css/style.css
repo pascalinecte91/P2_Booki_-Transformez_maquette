@@ -420,8 +420,8 @@ a:hover .popularItem {
 .activityCards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 40px);
-    gap: 35px;
+    grid-template-rows: repeat(2, 54px);
+    gap: 21px;
     grid-template-areas:
         "One Two Four Five"
         "One Two Four Five"
@@ -448,26 +448,34 @@ a:hover.activityCard {
 
 .cardOne {
     grid-area: One;
+    height: 300px;
 }
 
 .cardTwo {
     grid-area: Two;
+    height: 150px;
 }
 
 .cardThree {
     grid-area: Three;
+    height: 130px;
 }
 
 .cardFour {
     grid-area: Four;
+    height: 300px;
 }
 
 .cardFive {
     grid-area: Five;
+    height: 130px;
+    
 }
 
 .cardSix {
     grid-area: Six;
+    height: 150px;
+
 }
 
 .activityPicture img {
@@ -475,6 +483,7 @@ a:hover.activityCard {
     width: 100%;
     border-radius: 16px 16px 0px 0px;
     object-fit: cover;
+    overflow: hidden;
 }
 
 .ratio {

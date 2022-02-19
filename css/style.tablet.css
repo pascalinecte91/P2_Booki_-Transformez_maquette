@@ -123,7 +123,8 @@ a:hover .popularItem {
 ******************/
  .activityCards {
     display: grid;
-    grid-template-columns: minmax(min-content, auto);
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 11px;
     grid-template-areas:
         "  Two Four Five"
         "  Two Four Five"
@@ -135,6 +136,34 @@ a:hover .popularItem {
     display: none;
 }
 
+.cardTwo {
+    grid-area: Two;
+    height: 130px;
+}
+
+.cardThree {
+    grid-area: Three;
+    height: 125;
+}
+
+.cardFour {
+    grid-area: Four;
+    height: 270px;
+}
+
+.cardFive {
+    grid-area: Five;
+    height: 120px;
+    overflow: hidden;
+    
+}
+
+.cardSix {
+    grid-area: Six;
+    height: 140px;
+    overflow: hidden;
+
+}
 a:hover.activityCard {
     transform: inherit;
 }
