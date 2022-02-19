@@ -42,8 +42,8 @@ des liens. Ils doivent mener respectivement vers la section
 “Hébergements à Marseille” et “Activités à Marseille”.
 Spécifications techniques
 
-* Deux maquettes ont été réalisées : l’une desktop et l’autre mobile.
-![phone](./images/Desktop.png)
+* Deux maquettes ont été réalisées : l’une desktop et l’autre mobile. Voici la "desktop":
+![Desktop](./images/Desktop.png)
 
  Le site devra être également adapté aux formats tablette. Pour les
 tablettes, nous sommes libres de faire les adaptations nécessaires. Il

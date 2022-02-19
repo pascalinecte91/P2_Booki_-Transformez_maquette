@@ -25,6 +25,15 @@ main {
     font-size: 12px;
 }
 
+
+.fa-search:before {
+    content: 'Rechercher';
+}
+
+.searchForm button {
+    width: 110px;
+}
+
 /*******************
      HEBERGEMENTS 
 ********************/
@@ -64,8 +73,6 @@ main {
 }
 a:hover.hebergment { 
     transform: inherit;
-    transition: inherit;
-   
 }
 
 /*******************/
@@ -77,20 +84,20 @@ h2 {
     color: black;
 }
 
-h2.title {
-    padding: 15px 10px 10px 10px;
-}
-
 /*******************
        POPULAR 
 ********************/
 
 .popularItem {
-    height: 260px;
+    height: 237px;
     flex-direction: column;
     align-items: flex-start;
 }
 
+.popular .title {
+    padding: 15px 22px 14px 22px;
+
+}
 .popularItem figcaption {
     padding-left: 10px;
     flex-direction: column;
@@ -109,8 +116,6 @@ figcaption p {
 
 a:hover .popularItem {
     transform: inherit;
-    transition:inherit;
-
 }
 
 /*****************
@@ -119,7 +124,6 @@ a:hover .popularItem {
  .activityCards {
     display: grid;
     grid-template-columns: minmax(min-content, auto);
-    grid-template-rows:auto;
     grid-template-areas:
         "  Two Four Five"
         "  Two Four Five"
@@ -133,8 +137,6 @@ a:hover .popularItem {
 
 a:hover.activityCard {
     transform: inherit;
-    transition: inherit;
-  
 }
 
 .activitTitle 
@@ -144,6 +146,10 @@ a:hover.activityCard {
     padding: 25px 0px 25px 0px;
 }
 
+.ratio {
+    object-position: 50% 30%;
+    object-position: center top;
+}
 .activitLegend {
     padding: 10px 0px 0px 5px;
     font-size: 14px;

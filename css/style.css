@@ -18,7 +18,7 @@
     --gray-light-box: #c2baba;
     --white-clouds: #ecf0f1;
     --gray-dark: rgb(230, 225, 225);
-    --title-section: 20px;
+    --title-section: 18px;
     --title-section-mobile: 24px;
 }
 
@@ -55,6 +55,10 @@ ul {
     list-style: none;
 }
 
+.starGrey {
+ color: #d9d9d9;
+ font-size: 11px;
+}
 
 /********************
       HEADER   
@@ -107,7 +111,7 @@ header {
 
 .searchForm i {
     background-color: var(--gray-light);
-    padding: 20px;
+    padding: 17px;
     height: 51px;
 }
 
@@ -145,8 +149,12 @@ header {
 }
 
 ::placeholder {
-    color: black
+    color: black;
+    font-weight: 800;
+    
 }
+
+
 
 /*************************
        SECTION  filters
@@ -167,29 +175,30 @@ header {
     padding-right: 20px;
 }
 
-.filtersBtn .btn-gray-light {
+.btn-gray-light {
     display: flex;
     align-items: center;
-    font-size: 17px;
+    font-size: 16px;
     background-color: white;
-    border: 2px solid rgb(230, 225, 225);
+    border: 2px solid #E3E3E3;
     border-radius: 25px;
     cursor: pointer;
     transition: all 0.2s;
     width: auto;
-    height: 35px;
+    font-weight: 600;
+    height: 40px;
     padding-right: 10px;
-    margin: 10px 10px 10px 0px;
+    margin: 10px 20px 10px 0px;
     
 }
 
 button.btn-gray-light i {
     background-color: var(--blue-light);
     color: var(--blue);
-    margin: 0px 10px 0px -1px;
+    margin: 0px 10px 0px -3px;
     border-radius: 55px;
-    width: 40px;
-    height: 35px;
+    width: 41px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -197,8 +206,7 @@ button.btn-gray-light i {
 
 button.btn-gray-light:hover {
     background-color: var(--blue-light);
-    color: black;
-    
+    color: black;   
 }
 
 /*****************
@@ -209,7 +217,7 @@ button.btn-gray-light:hover {
     display: flex;
     align-items: center;
     font-size: 13px;
-    font-weight: 300;
+    font-weight: 500;
     padding: 20px 40px 30px 0px;
 }
 
@@ -245,7 +253,7 @@ button.btn-gray-light:hover {
     width: 65%;
     gap: 10px 10px;
     background-color: var(--gray-light);
-    border-radius: 15px;
+    border-radius: 16px;
 }
 
 .hebergements .title {
@@ -267,15 +275,13 @@ button.btn-gray-light:hover {
     border-radius: 16px 16px;
     box-shadow: 0px 2px 10px var(--gray-light-box);
     padding: 1px 1px 1px 1px;
-    border: 2px solid transparent;
- 
+    border: 2px solid transparent; 
 }
 
 a:hover.hebergment {
     background-color: var(--blue-light);
     transform: scale(1.05);
     transition: 0.5s;
-   
 }
 
 .hebergment img {
@@ -286,7 +292,7 @@ a:hover.hebergment {
 
 }
 
-.hebergment i {
+.hebergment figcaption > i {
     font-size: 11px;
     color: var(--blue);
     padding-bottom: 10px;
@@ -295,22 +301,19 @@ a:hover.hebergment {
 .hebergment figcaption {
     line-height: 20px;
     padding: 5px 5px 0px 12px;
-
-}
-
-.hebergment h2,
-p {
     font-size: 14px;
-    color: black;
 }
 
+.hebergment  p {
+    font-size: 13px;
+}
 
 /**********************/
 
 .plusInfo a {
     color: black;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .plusInfo {
@@ -333,7 +336,8 @@ p {
     width: 40%;
     display: flex;
     flex-direction: column;
-
+    justify-content: space-around;
+    border-radius: 16px 16px;
     margin: 0px 0px 0px 20px;
 }
 
@@ -342,13 +346,15 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 25px 10px 5px 22px;
+    padding: 25px 22px 5px 22px;
+
 }
 
 .popular .title i {
     color: black;
     font-size: 16px;
 }
+
 
 .popularItem {
     display: flex;
@@ -361,22 +367,16 @@ p {
     box-shadow: 0px 2px 10px var(--gray-light-box);
     height: 120px;
     border: 2px solid transparent;
-   
 }
 
 a:hover .popularItem {
     background-color: var(--blue-light);
     transform: scale(1.05);
     transition: 0.5s;
-
 }
 
 .popular a {
     margin-top: -10px;
-}
-
-.popularContent {
-    padding-left: 15px;
 }
 
 .popularItem img {
@@ -385,19 +385,19 @@ a:hover .popularItem {
     width: 30%;
     max-height: 300px;
     border-radius: 16px 0px 0px 16px;
-    
-}
-
-.popularName {
-    font-size: 14px;
 }
 
 .popular i {
     font-size: 11px;
     color: var(--blue);
-    padding-bottom: 10px;
+    padding-bottom: 10px; 
 }
 
+ .popular .starGrey i {
+    font-size: 11px;
+    color: #d9d9d9;
+    padding-bottom: 10px;
+}
 .popularItem figcaption {
     flex-wrap: wrap;
     line-height: 18px;
@@ -407,9 +407,8 @@ a:hover .popularItem {
     padding: 10px 0px 8px 8px;
 }
 
-.popular,
-.popularName,
-.popularIcone {
+.popular 
+{
     font-size: 14px;
     color: black;
 }
@@ -421,8 +420,8 @@ a:hover .popularItem {
 .activityCards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 100px);
-    gap: 25px;
+    grid-template-rows: repeat(5, 40px);
+    gap: 35px;
     grid-template-areas:
         "One Two Four Five"
         "One Two Four Five"
@@ -438,14 +437,13 @@ a:hover .popularItem {
     background-color: white;
     border-radius: 16px;
     box-shadow: 0px 2px 10px var(--gray-light-box);
-    border: 1px solid transparent;  
+    border: -1px solid transparent;  
 }
 
 a:hover.activityCard {
     background-color: var(--blue-light);
     transform: scale(1.05);
     transition: 0.5s;
-  
 }
 
 .cardOne {
@@ -479,6 +477,10 @@ a:hover.activityCard {
     object-fit: cover;
 }
 
+.ratio {
+    object-position: 50% 30%;
+    object-position: center top;
+}
 .activitTitle {
     font-size: var(--title-section);
     color: black;
@@ -486,7 +488,7 @@ a:hover.activityCard {
 }
 
 .activityPicture {
-    height: calc(100% - 70px);
+    height: calc(100% - 44px);
 }
 
 /* LEGENDE CARD */
@@ -494,11 +496,11 @@ a:hover.activityCard {
     height: 30px;
     display: flex;
     align-items: center;
-    padding-left: 15px;
+    padding-left: 17px;
     color: black;
     font-family: Raleway;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 13px;
     padding-top: 10px;
 }
 
@@ -511,13 +513,14 @@ a:hover.activityCard {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     background: var(--gray-light);
-    padding: 20px 0px 10px 40px;
-    line-height: 35px;
-    font-size: 14px;
+    padding: 30px 0px 10px 40px;
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: 500;
     margin-top: 20px;
 }
  div ul:nth-child(2){
-     padding-top: 20px;
+     padding-top: 5px;
  }
 
  .containerFooter li:hover {

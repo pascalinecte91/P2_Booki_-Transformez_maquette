@@ -69,6 +69,8 @@ header {
 #search {
     width: 230px;
 }
+
+
 .search p {
     font-size: 17px;
     font-weight: 500;
@@ -170,7 +172,9 @@ button.btn-gray-light i {
 .hebergment figcaption {
     padding: 7px 5px 0px 15px;
 }
-
+a:hover.hebergment {
+    transform: inherit;
+}
 /******************/
 
 .plusInfo {
@@ -244,7 +248,9 @@ h3.popularName {
     font-size: 25px;
 }
 
-
+a:hover .popularItem {
+    transform: inherit
+}
 /*****************
     ACTIVITES     
 ******************/
@@ -263,6 +269,7 @@ h3.popularName {
     flex-flow: column;
     margin-bottom: 5px;
     grid-template-columns: repeat(auto-fill, minmax( 1fr));
+    gap: 30px;
 
 }
 
@@ -282,7 +289,10 @@ h3.popularName {
     padding-bottom: 5px;
     height: 45px;
     font-size: 15px;
-   
+}
+
+a:hover.activityCard {
+    transform: inherit;
 }
 /*****************
     FOOTER      
