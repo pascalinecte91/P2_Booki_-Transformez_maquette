@@ -3,7 +3,7 @@ main {
 }
 
 /*****************
-      Search
+      SEARCH
 *******************/
 
 .searchForm label {
@@ -27,13 +27,6 @@ main {
 }
 
 
-.fa-search:before {
-    content: 'Rechercher';
-}
-
-.searchForm button {
-    width: 110px;
-}
 
 /*******************
      HEBERGEMENTS 

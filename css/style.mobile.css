@@ -90,9 +90,9 @@ header {
 }
 
 ::placeholder {
-  font-size: 17px;
-    
+    font-size: 17px;
 }
+
 /**********************
        FILTERS  / INFO
 ***********************/
@@ -104,7 +104,7 @@ header {
     flex-wrap: wrap;
 }
 
-button.btn-gray-light i {
+.filtersBtn i {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,12 +119,14 @@ button.btn-gray-light i {
     font-weight: 600;
     height: 55px;
     border: 2px solid rgb(228, 226, 226);
-    margin: 10px 14px 10px 0px;
+    margin: 10px 17px 10px 0px;
 }
 
 
 .infoFilters i {
     width: 40px;
+    width: 43px;
+    height: 33px;
 }
 
 .infoFilters {
@@ -132,6 +134,7 @@ button.btn-gray-light i {
     padding: 30px 20px 40px 20px;
     font-size: 18px;
     font-weight: 500;
+
 }
 
 /*****************
@@ -164,22 +167,27 @@ button.btn-gray-light i {
     height: 130px;
 }
 
-.hebergment h2, p {
+.hebergment h2,
+p {
     font-size: 18px;
     line-height: 24px;
     font-weight: 500;
 }
 
+/* etoile grise */
+
 .hebergment i {
-    font-size: 13px;
+    font-size: 9px;
 }
 
 .hebergment figcaption {
     padding: 7px 5px 0px 15px;
 }
+
 a:hover.hebergment {
     transform: inherit;
 }
+
 /******************/
 
 .plusInfo {
@@ -202,6 +210,7 @@ a:hover.hebergment {
     width: 100%;
     margin: inherit;
     padding: 10px 20px 40px 20px;
+    border-radius: 0px;
 }
 
 .popularItem img {
@@ -212,9 +221,10 @@ a:hover.hebergment {
 .popular a {
     margin-top: inherit;
 }
+
 .popularItem {
     height: 160px;
-    margin: 0px 5px 10px 5px;
+    margin: 0px 0px 15px 0px;
 }
 
 .popularItem figcaption {
@@ -237,6 +247,7 @@ a:hover.hebergment {
     font-size: var(--title-section-mobile);
     padding-left: 5px;
     padding-bottom: 30px;
+    padding-right: 0px;
 }
 
 
@@ -248,33 +259,35 @@ a:hover.hebergment {
 a:hover .popularItem {
     transform: inherit
 }
+
 /*****************
     ACTIVITES     
 ******************/
 .activites {
-    padding: 0px 20px 0px 20px;  
-      }
+    padding: 0px 20px 0px 20px;
+}
 
 
 .activitTitle {
     font-size: var(--title-section-mobile);
-    padding-top: 35px;
-    padding-bottom: 40px;
+    padding-top: 32px;
+    padding-bottom: 36px;
 }
 
 .activityCards {
     display: inline-flex;
     flex-flow: column;
     margin-bottom: 5px;
-    grid-template-columns: repeat(auto-fill, minmax( 1fr));
+
     gap: 30px;
 
 }
 
-.activityPicture img{  
+.activityPicture img {
     aspect-ratio: 3/1;
-    width: 100%;   
+    width: 100%;
 }
+
 .cardOne {
     grid-area: One;
     height: inherit
@@ -297,7 +310,7 @@ a:hover .popularItem {
 
 .cardFive {
     grid-area: Five;
-    height: inherit 
+    height: inherit
 }
 
 .cardSix {
@@ -321,6 +334,7 @@ a:hover .popularItem {
 a:hover.activityCard {
     transform: inherit;
 }
+
 /*****************
     FOOTER      
 ******************/
@@ -331,7 +345,7 @@ a:hover.activityCard {
     margin-top: 50px;
 }
 
-div ul:nth-child(2){
+div ul:nth-child(2) {
     padding-top: 10px;
     padding-bottom: 30px;
 }

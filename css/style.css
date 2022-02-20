@@ -81,7 +81,7 @@ header {
 }
 
 .navPrimary ul {
-    display: flex;
+    display: flex;  
 }
 
 .navPrimary a {
@@ -89,17 +89,15 @@ header {
     padding: 40px;
     border-top: 2px solid transparent;
 }
-
+ 
 .navPrimary a:hover {
     color: var(--blue);
     border-top: 2px solid var(--blue);
-
 }
 
 /*************************
       SECTION  search
 **************************/
-
 
 .fa-map-marker-alt {
     background-color: var(--gray-light);
@@ -148,12 +146,13 @@ header {
     font-size: 18px;
 }
 
+
+/* ecrire la ville */
+
 ::placeholder {
     color: black;
-    font-weight: 800;
-    
+    font-weight: 800; 
 }
-
 
 
 /*************************
@@ -167,9 +166,13 @@ header {
     font-size: 14px;
 }
 
+/* barre des filtres */ 
+
 .filtersBtn {
     display: flex;
 }
+
+/* entre filtres et economies*/ 
 
 .filters h2 {
     padding-right: 20px;
@@ -192,7 +195,7 @@ header {
     
 }
 
-button.btn-gray-light i {
+.filtersBtn i {
     background-color: var(--blue-light);
     color: var(--blue);
     margin: 0px 10px 0px -3px;
@@ -438,8 +441,7 @@ a:hover .popularItem {
     flex-direction: column;
     background-color: white;
     border-radius: 16px;
-    box-shadow: 0px 2px 10px var(--gray-light-box);
-    border: -1px solid transparent;  
+    box-shadow: 0px 2px 10px var(--gray-light-box); 
 }
 
 a:hover.activityCard {
