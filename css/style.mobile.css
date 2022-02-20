@@ -89,11 +89,15 @@ header {
     height: 53px;
 }
 
+::placeholder {
+  font-size: 17px;
+    
+}
 /**********************
        FILTERS  / INFO
 ***********************/
 .filters {
-    padding: 0px 30px;
+    padding: 15px 30px;
 }
 
 .filtersBtn {
@@ -115,7 +119,7 @@ button.btn-gray-light i {
     font-weight: 600;
     height: 55px;
     border: 2px solid rgb(228, 226, 226);
-    margin: 10px 12px 10px 0px;
+    margin: 10px 14px 10px 0px;
 }
 
 
@@ -217,6 +221,11 @@ a:hover.hebergment {
     padding-top: 15px;
     line-height: 20px;
     padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.popularItem p {
+    font-size: 14px;
 }
 
 .infoPopular {
@@ -226,27 +235,14 @@ a:hover.hebergment {
 
 .popular .title {
     font-size: var(--title-section-mobile);
+    padding-left: 5px;
+    padding-bottom: 30px;
 }
+
 
 .popularIcone {
     font-size: 17px;
     padding-top: 6px;
-}
-
-.popular .popularName {
-    font-size: 19px;
-}
-
-h3.popularName {
-    font-size: 16px;
-}
-
-.popular h2.title {
-    padding: 30px 15px 20px 5px;
-}
-
-.popular h2.title i {
-    font-size: 25px;
 }
 
 a:hover .popularItem {

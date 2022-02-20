@@ -48,19 +48,23 @@ main {
 }
 
 .hebergements .title {
-    padding: 24px 0px 0px 10px;
+    padding: 25px 0px 0px 25px;
     font-size: 17px;
     color: black;
 }
 
+.hebergements {
+    justify-content: space-evenly;
+}
 .hebergment {
-    width: 31%;
-    height: 30%;
+    width:40%;
+    height: 25%;
     border-radius: 20px 20px;
 }
 
 .hebergment figcaption {
-    line-height: 15px;
+    line-height: 13px;
+    font-size: 13px;
 }
 
 .hebergment p {
@@ -69,8 +73,9 @@ main {
 
 .plusInfo {
     font-size: 18px;
-    padding-bottom: 0px;
+    padding-bottom: 15px;
     padding-top: 0px;
+    padding-left: 25px;
 }
 
 a:hover.hebergment {
@@ -176,7 +181,7 @@ a:hover.activityCard {
 .activitTitle {
     font-size: 18px;
     color: black;
-    padding: 25px 0px 25px 0px;
+    padding: 25px 0px 10px 2px;
 }
 
 .ratio {
