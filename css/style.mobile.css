@@ -125,7 +125,7 @@ button.btn-gray-light i {
 
 .infoFilters {
     align-items: baseline;
-    padding: 15px 40px 40px 25px;
+    padding: 30px 20px 40px 20px;
     font-size: 18px;
     font-weight: 500;
 }
@@ -136,7 +136,7 @@ button.btn-gray-light i {
 
 .hebergements {
     flex-direction: column;
-    padding: 0px 10px 0px 10px;
+    padding: 25px 20px 0px 20px;
     width: 100%;
     margin: 0px;
     gap: inherit;
@@ -163,6 +163,7 @@ button.btn-gray-light i {
 .hebergment h2, p {
     font-size: 18px;
     line-height: 24px;
+    font-weight: 500;
 }
 
 .hebergment i {
@@ -196,7 +197,7 @@ a:hover.hebergment {
 .popular {
     width: 100%;
     margin: inherit;
-    padding: 0px 10px 40px 10px;
+    padding: 10px 20px 40px 20px;
 }
 
 .popularItem img {
@@ -255,13 +256,14 @@ a:hover .popularItem {
     ACTIVITES     
 ******************/
 .activites {
-    padding: 0px 10px 0px 10px;  
+    padding: 0px 20px 0px 20px;  
       }
 
 
 .activitTitle {
     font-size: var(--title-section-mobile);
     padding-top: 35px;
+    padding-bottom: 40px;
 }
 
 .activityCards {
@@ -328,7 +330,7 @@ a:hover.activityCard {
 ******************/
 .containerFooter {
     grid-template-columns: 1fr;
-    padding: 20px 0px 0px 20px;
+    padding: 40px 20px 0px 20px;
     line-height: 30px;
     margin-top: 50px;
 }

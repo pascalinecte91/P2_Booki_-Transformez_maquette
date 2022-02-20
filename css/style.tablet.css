@@ -1,6 +1,7 @@
-main { 
+main {
     margin-bottom: 50px;
 }
+
 /*****************
       Search
 *******************/
@@ -62,7 +63,7 @@ main {
     line-height: 15px;
 }
 
-.hebergment h2, p {
+.hebergment p {
     font-size: 12px;
 }
 
@@ -71,7 +72,8 @@ main {
     padding-bottom: 0px;
     padding-top: 0px;
 }
-a:hover.hebergment { 
+
+a:hover.hebergment {
     transform: inherit;
 }
 
@@ -98,6 +100,7 @@ h2 {
     padding: 15px 22px 14px 22px;
 
 }
+
 .popularItem figcaption {
     padding-left: 10px;
     flex-direction: column;
@@ -121,7 +124,7 @@ a:hover .popularItem {
 /*****************
     ACTIVITES     
 ******************/
- .activityCards {
+.activityCards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 11px;
@@ -131,7 +134,8 @@ a:hover .popularItem {
         "  Two Four Six"
         "  Three Four Six"
         "  Three Four Six";
-} 
+}
+
 .cardOne {
     display: none;
 }
@@ -155,7 +159,7 @@ a:hover .popularItem {
     grid-area: Five;
     height: 120px;
     overflow: hidden;
-    
+
 }
 
 .cardSix {
@@ -164,12 +168,12 @@ a:hover .popularItem {
     overflow: hidden;
 
 }
+
 a:hover.activityCard {
     transform: inherit;
 }
 
-.activitTitle 
- {
+.activitTitle {
     font-size: 18px;
     color: black;
     padding: 25px 0px 25px 0px;
@@ -179,14 +183,16 @@ a:hover.activityCard {
     object-position: 50% 30%;
     object-position: center top;
 }
+
 .activitLegend {
     padding: 10px 0px 0px 5px;
     font-size: 14px;
 }
+
 /****************
       FOOTER
 ****************/
 
 .containerFooter {
-    line-height: 25px;  
+    line-height: 25px;
 }
