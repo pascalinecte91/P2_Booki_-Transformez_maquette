@@ -6,6 +6,7 @@ main {
       SEARCH
 *******************/
 
+
 .searchForm label {
     font-weight: 800;
     cursor: pointer;
@@ -25,7 +26,6 @@ main {
 .search p {
     font-size: 12px;
 }
-
 
 
 /*******************
@@ -49,8 +49,9 @@ main {
 .hebergements {
     justify-content: space-evenly;
 }
+
 .hebergment {
-    width:40%;
+    width: 40%;
     height: 25%;
     border-radius: 20px 20px;
 }

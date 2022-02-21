@@ -56,8 +56,8 @@ ul {
 }
 
 .starGrey {
- color: #d9d9d9;
- font-size: 9px;
+    color: #d9d9d9;
+    font-size: 9px;
 }
 
 /********************
@@ -81,7 +81,7 @@ header {
 }
 
 .navPrimary ul {
-    display: flex;  
+    display: flex;
 }
 
 .navPrimary a {
@@ -89,7 +89,7 @@ header {
     padding: 40px;
     border-top: 2px solid transparent;
 }
- 
+
 .navPrimary a:hover {
     color: var(--blue);
     border-top: 2px solid var(--blue);
@@ -98,7 +98,9 @@ header {
 /*************************
       SECTION  search
 **************************/
-
+.searchForm::after {
+    content: "rechercher";
+  }
 .fa-map-marker-alt {
     background-color: var(--gray-light);
     font-size: 20px;
@@ -107,21 +109,23 @@ header {
     border-radius: 15px 0px 0px 15px;
 }
 
+.searchForm {
+    display: flex;
+    margin: 20px 0px;
+}
+.search p {
+    padding-top: 10px;
+    font-size: 15px;
+}
+/******************************************/
+            /*  FORM  */
+
 .searchForm i {
     background-color: var(--gray-light);
     padding: 17px;
     height: 51px;
 }
 
-.search p {
-    padding-top: 10px;
-    font-size: 15px;
-}
-
-.searchForm {
-    display: flex;
-    margin: 20px 0px;
-}
 
 .searchForm label {
     border-radius: 10px 0 0 10px;
@@ -132,6 +136,12 @@ header {
 .searchForm input {
     padding-left: 15px;
     border: none;
+}
+/***************** ecrire la ville **********/
+
+::placeholder {
+    color: black;
+    font-weight: 800;
 }
 
 .searchForm button {
@@ -144,16 +154,8 @@ header {
     font-weight: 800;
     cursor: pointer;
     font-size: 18px;
+    width: 110px;
 }
-
-
-/* ecrire la ville */
-
-::placeholder {
-    color: black;
-    font-weight: 800; 
-}
-
 
 /*************************
        SECTION  filters
@@ -166,13 +168,13 @@ header {
     font-size: 14px;
 }
 
-/* barre des filtres */ 
+/***************** barre des filtres *********/
 
 .filtersBtn {
     display: flex;
 }
 
-/* entre filtres et economies*/ 
+/* entre filtres et economies*/
 
 .filters h2 {
     padding-right: 20px;
@@ -192,7 +194,7 @@ header {
     height: 40px;
     padding-right: 10px;
     margin: 10px 20px 10px 0px;
-    
+
 }
 
 .filtersBtn i {
@@ -209,7 +211,7 @@ header {
 
 button.btn-gray-light:hover {
     background-color: var(--blue-light);
-    color: black;   
+    color: black;
 }
 
 /*****************
@@ -238,9 +240,9 @@ button.btn-gray-light:hover {
     font-size: 11px;
 }
 
-/*******************
-    General      
-********************/
+/***************************
+    container  2 sections      
+****************************/
 
 .hebergPopular {
     display: flex;
@@ -280,7 +282,7 @@ button.btn-gray-light:hover {
     border-radius: 16px 16px;
     box-shadow: 0px 2px 10px var(--gray-light-box);
     padding: 1px 1px 1px 1px;
-    border: 2px solid transparent; 
+    border: 2px solid transparent;
 }
 
 a:hover.hebergment {
@@ -297,7 +299,7 @@ a:hover.hebergment {
 
 }
 
-.hebergment figcaption > i {
+.hebergment figcaption>i {
     font-size: 9px;
     color: var(--blue);
     padding-bottom: 10px;
@@ -309,7 +311,7 @@ a:hover.hebergment {
     font-size: 14px;
 }
 
-.hebergment  p {
+.hebergment p {
     font-size: 13px;
 }
 
@@ -329,8 +331,9 @@ a:hover.hebergment {
 }
 
 .plusInfo a:hover {
-    text-decoration: underline  var(--blue)
+    text-decoration: underline var(--blue)
 }
+
 /***********************
       SECTION popular   
 ************************/
@@ -395,14 +398,15 @@ a:hover .popularItem {
 .popular i {
     font-size: 9px;
     color: var(--blue);
-    padding-bottom: 10px; 
+    padding-bottom: 10px;
 }
 
- .popular .starGrey i {
+.popular .starGrey i {
     font-size: 9px;
     color: #d9d9d9;
     padding-bottom: 10px;
 }
+
 .popularItem figcaption {
     flex-wrap: wrap;
     line-height: 18px;
@@ -412,8 +416,7 @@ a:hover .popularItem {
     padding: 10px 0px 8px 8px;
 }
 
-.popular 
-{
+.popular {
     font-size: 14px;
     color: black;
 }
@@ -433,7 +436,7 @@ a:hover .popularItem {
         "One Two Four Six"
         "One Three Four Six"
         "One Three Four Six";
-      
+
 }
 
 .activityCard {
@@ -441,7 +444,7 @@ a:hover .popularItem {
     flex-direction: column;
     background-color: white;
     border-radius: 16px;
-    box-shadow: 0px 2px 10px var(--gray-light-box); 
+    box-shadow: 0px 2px 10px var(--gray-light-box);
 }
 
 a:hover.activityCard {
@@ -449,37 +452,36 @@ a:hover.activityCard {
     transform: scale(1.05);
     transition: 0.5s;
 }
-
+ /**************** vieux port  *******/
 .cardOne {
     grid-area: One;
     height: 300px;
 }
+/******************  fort   **********/
 
 .cardTwo {
     grid-area: Two;
     height: 150px;
 }
-
+/****************** frioul ***********/
 .cardThree {
     grid-area: Three;
     height: 130px;
 }
-
+/****************  calanques **********/
 .cardFour {
     grid-area: Four;
     height: 300px;
 }
-
+/**************  notre dame ***********/
 .cardFive {
     grid-area: Five;
     height: 130px;
-    
 }
-
+/**************  parc *****************/
 .cardSix {
     grid-area: Six;
     height: 150px;
-
 }
 
 .activityPicture img {
@@ -494,6 +496,7 @@ a:hover.activityCard {
     object-position: 50% 30%;
     object-position: center top;
 }
+
 .activitTitle {
     font-size: var(--title-section);
     color: black;
@@ -504,7 +507,7 @@ a:hover.activityCard {
     height: calc(100% - 44px);
 }
 
-/* LEGENDE CARD */
+/************** legende carte ***********/
 .activitLegend {
     height: 30px;
     display: flex;
@@ -532,11 +535,12 @@ a:hover.activityCard {
     font-weight: 500;
     margin-top: 20px;
 }
- div ul:nth-child(2){
-     padding-top: 5px;
- }
 
- .containerFooter li:hover {
-    text-decoration: underline ;
- 
- }
+div ul:nth-child(2) {
+    padding-top: 5px;
+}
+
+.containerFooter li:hover {
+    text-decoration: underline;
+
+}
