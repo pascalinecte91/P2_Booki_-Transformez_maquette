@@ -50,6 +50,9 @@ header {
 /*****************
     SEARCH   
 ******************/
+.searchForm:before {
+    content: "\f002";
+}
 
 .search {
     padding: 0px 30px;

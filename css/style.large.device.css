@@ -98,9 +98,10 @@ header {
 /*************************
       SECTION  search
 **************************/
-.searchForm::after {
+.searchForm:before {
     content: "rechercher";
-  }
+}
+
 .fa-map-marker-alt {
     background-color: var(--gray-light);
     font-size: 20px;

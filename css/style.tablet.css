@@ -5,7 +5,9 @@ main {
 /*****************
       SEARCH
 *******************/
-
+.searchForm:before {
+    content: "\f002";
+}
 
 .searchForm label {
     font-weight: 800;
