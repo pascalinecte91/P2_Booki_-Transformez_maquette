@@ -33,7 +33,7 @@ body>header {
 }
 
 .navPrimary a {
-    padding: 20px;
+    padding: 25px;
     border-bottom: 2px solid transparent;
     border-top: 0px;
 }
@@ -50,9 +50,17 @@ header {
 /*****************
     SEARCH   
 ******************/
+.fa-search:before {
+    content: "\f002";
+}
+
 
 .search {
-    padding: 0px 30px;
+    padding: 0px 22px;
+}
+
+.searchForm i {
+    height: 58px;
 }
 
 .search h1 {
@@ -63,13 +71,12 @@ header {
 .search input {
     border-top: 1px solid var(--gray-light);
     border-bottom: 1px solid rgb(230, 225, 225);
-    height: 51px;
+    height: 58px;
 }
 
 #search {
-    width: 230px;
+    width: 250px;
 }
-
 
 .search p {
     font-size: 17px;
@@ -86,7 +93,7 @@ header {
     border-radius: 15px;
     width: 66px;
     margin: -1px 0 3px -10px;
-    height: 53px;
+    height: 60px;
 }
 
 ::placeholder {
@@ -97,7 +104,7 @@ header {
        FILTERS  / INFO
 ***********************/
 .filters {
-    padding: 15px 30px;
+    padding: 20px 22px;
 }
 
 .filtersBtn {
@@ -129,21 +136,27 @@ header {
     height: 33px;
 }
 
+
+
 .infoFilters {
     align-items: baseline;
-    padding: 30px 20px 40px 20px;
+    padding: 25px 22px 40px 22px;
     font-size: 18px;
     font-weight: 500;
-
 }
 
+
+/************ afficher plus **********/
+.plusInfo a {
+    font-size: 17px;
+}
 /*****************
     Hebergments     
 ******************/
 
 .hebergements {
     flex-direction: column;
-    padding: 25px 20px 0px 20px;
+    padding: 25px 22px 0px 22px;
     width: 100%;
     margin: 0px;
     gap: inherit;
@@ -209,7 +222,7 @@ a:hover.hebergment {
 .popular {
     width: 100%;
     margin: inherit;
-    padding: 10px 20px 40px 20px;
+    padding: 10px 22px 40px 22px;
     border-radius: 0px;
 }
 
@@ -228,10 +241,9 @@ a:hover.hebergment {
 }
 
 .popularItem figcaption {
-    padding-top: 15px;
     line-height: 20px;
-    padding-bottom: 10px;
-    font-size: 16px;
+    font-size: 19px;
+    padding: 15px 0px 10px 12px;
 }
 
 .popularItem p {
@@ -250,7 +262,10 @@ a:hover.hebergment {
     padding-right: 0px;
 }
 
+.popular i {
+    font-size: 10px;
 
+}
 .popularIcone {
     font-size: 17px;
     padding-top: 6px;
@@ -264,7 +279,7 @@ a:hover .popularItem {
     ACTIVITES     
 ******************/
 .activites {
-    padding: 0px 20px 0px 20px;
+    padding: 0px 22px 0px 22px;
 }
 
 
@@ -340,7 +355,7 @@ a:hover.activityCard {
 ******************/
 .containerFooter {
     grid-template-columns: 1fr;
-    padding: 40px 20px 0px 20px;
+    padding: 40px 22px 0px 22px;
     line-height: 30px;
     margin-top: 50px;
 }
