@@ -30,7 +30,6 @@
 :root {
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
-
 }
 
 main {
@@ -98,7 +97,7 @@ header {
 /*************************
       SECTION  search
 **************************/
-.searchForm:before {
+.fa-search:before {
     content: "rechercher";
 }
 

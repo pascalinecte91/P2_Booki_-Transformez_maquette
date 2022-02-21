@@ -2,6 +2,7 @@ main {
     padding: 0px 0px;
 }
 
+
 /*****************
      HEADER
 *******************/
@@ -50,12 +51,13 @@ header {
 /*****************
     SEARCH   
 ******************/
-.searchForm:before {
+.fa-search:before {
     content: "\f002";
 }
 
+
 .search {
-    padding: 0px 30px;
+    padding: 0px 20px;
 }
 
 .search h1 {
@@ -66,7 +68,7 @@ header {
 .search input {
     border-top: 1px solid var(--gray-light);
     border-bottom: 1px solid rgb(230, 225, 225);
-    height: 51px;
+    height: 58px;
 }
 
 #search {
@@ -81,14 +83,14 @@ header {
 }
 
 .search i {
-    padding: 17px;
+    padding: 29px;
 }
 
 .search button {
     border-radius: 15px;
     width: 66px;
     margin: -1px 0 3px -10px;
-    height: 53px;
+    height: 60px;
 }
 
 ::placeholder {
@@ -99,7 +101,7 @@ header {
        FILTERS  / INFO
 ***********************/
 .filters {
-    padding: 15px 30px;
+    padding: 15px 20px;
 }
 
 .filtersBtn {

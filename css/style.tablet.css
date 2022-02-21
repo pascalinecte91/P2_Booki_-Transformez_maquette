@@ -5,7 +5,7 @@ main {
 /*****************
       SEARCH
 *******************/
-.searchForm:before {
+.fa-search:before {
     content: "\f002";
 }
 
