@@ -502,8 +502,12 @@ a:hover.activityCard {
 }
 
 .ratio {
-    object-position: 50% 30%;
-    object-position: center top;
+    object-position: 100% 16%;
+   
+}
+.ratio2 {
+    object-position: 100% 40%;
+   
 }
 
 .activitTitle {
