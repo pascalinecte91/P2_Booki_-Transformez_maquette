@@ -114,12 +114,14 @@ header {
     display: flex;
     margin: 20px 0px;
 }
+
 .search p {
     padding-top: 10px;
     font-size: 15px;
 }
+
 /******************************************/
-            /*  FORM  */
+/*  FORM  */
 
 .searchForm i {
     background-color: var(--gray-light);
@@ -137,6 +139,7 @@ header {
     padding-left: 15px;
     border: none;
 }
+
 /***************** ecrire la ville **********/
 
 ::placeholder {
@@ -452,32 +455,38 @@ a:hover.activityCard {
     transform: scale(1.05);
     transition: 0.5s;
 }
- /**************** vieux port  *******/
+
+/**************** vieux port  *******/
 .cardOne {
     grid-area: One;
     height: 300px;
 }
+
 /******************  fort   **********/
 
 .cardTwo {
     grid-area: Two;
     height: 150px;
 }
+
 /****************** frioul ***********/
 .cardThree {
     grid-area: Three;
     height: 130px;
 }
+
 /****************  calanques **********/
 .cardFour {
     grid-area: Four;
     height: 300px;
 }
+
 /**************  notre dame ***********/
 .cardFive {
     grid-area: Five;
     height: 130px;
 }
+
 /**************  parc *****************/
 .cardSix {
     grid-area: Six;

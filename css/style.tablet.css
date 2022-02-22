@@ -52,8 +52,9 @@ main {
 .hebergements {
     justify-content: space-evenly;
 }
+
 .hebergment {
-    width:40%;
+    width: 40%;
     height: 25%;
     border-radius: 20px 20px;
 }
@@ -148,7 +149,7 @@ a:hover .popularItem {
 
 .cardThree {
     grid-area: Three;
-    height: 125;
+    height: 125px;
 }
 
 .cardFour {

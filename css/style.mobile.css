@@ -150,6 +150,7 @@ header {
 .plusInfo a {
     font-size: 17px;
 }
+
 /*****************
     Hebergments     
 ******************/
@@ -264,8 +265,8 @@ a:hover.hebergment {
 
 .popular i {
     font-size: 10px;
-
 }
+
 .popularIcone {
     font-size: 17px;
     padding-top: 6px;
@@ -293,9 +294,7 @@ a:hover .popularItem {
     display: inline-flex;
     flex-flow: column;
     margin-bottom: 5px;
-
     gap: 30px;
-
 }
 
 .activityPicture img {
