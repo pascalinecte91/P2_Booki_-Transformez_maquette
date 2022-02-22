@@ -443,8 +443,6 @@ a:hover .popularItem {
 }
 
 .activityCard {
-    display: flex;
-    flex-direction: column;
     background-color: white;
     border-radius: 16px;
     box-shadow: 0px 2px 10px var(--gray-light-box);
