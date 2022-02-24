@@ -172,7 +172,7 @@ header {
 .hebergment {
     flex-wrap: wrap;
     width: 100%;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 15px 0px;
     height: auto;
     object-fit: cover;
 }
