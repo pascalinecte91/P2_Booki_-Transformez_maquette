@@ -52,6 +52,7 @@ header {
 ******************/
 .fa-search:before {
     content: "\f002";
+    font-family: inherit;
 }
 
 
